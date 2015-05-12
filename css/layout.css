@@ -167,10 +167,10 @@ input.error,textarea.error{
 	margin-left: -500px;
 }
 input::-webkit-input-placeholder {
-	color: #434343;
+	color: #FFF;
 }
 input:-moz-placeholder {
-	color: #434343;
+	color: #FFF;
 }
 .b-green-butt{
 	border-radius: 9px;
