@@ -281,7 +281,7 @@ input:-moz-placeholder {
 	}
 	.b-top-describe .w-2{
 		position: absolute;
-		top: 0px;
+		top: 1px;
 		  left: 50%;
   margin-left: -42px;
 		z-index: 1;
@@ -451,61 +451,60 @@ input:-moz-placeholder {
 				    font-size: 15px;
 				}
 .b-describe{
-	
+	background-color: #28324e;
+}
+.b-describe-2{
+	background-color: #FFF;
+}
+.b-describe-4{
+	background-color: #FFF;
 }
 	.b-describe .b-block{
 		width: 100%;
 		text-align: center;
 	}
-		.b-describe ul{
-
-		}
-			.b-describe ul li{
-				background-color: #28324e;
-			}
-			.b-describe ul li:nth-child(2n){
-				background-color: #FFF;
-			}
-				.b-describe ul li h2{
+				.b-describe h2{
 					padding-top: 31px;
 					color: #FFF;
 		    		font-family: "OSS";
 		    		font-size: 29px;
 				}
-				.b-describe ul li div{
+				.b-describe .b-block .b-cont{
 					margin-top: 41px;
 					margin-bottom: 42px;
 					width: 937px;
 					display: inline-block;
 				}
-					.b-describe ul li div img{
+					.b-describe .b-block .b-cont img{
 						float: left;
 						margin-right: 32px;
 					}
-					.b-describe ul li div h3{
+					.b-describe .b-cont-describe{
+						width: 600px;
+						height: 170px;
+						margin-bottom: 20px;
+					}
+					.b-describe .b-block .b-cont h3{
 						text-align: left;
 						color: #8dcd00;
 					    font-family: "OSR";
 					    font-size: 23px;
 					}
-					.b-describe ul li div p{
+					.b-describe .b-block .b-cont p{
 						margin-top: 29px;
 						color: #FFF;
+						width: 600px;
 				    	font-family: "OSL";
 				    	font-size: 16px;
 				    	text-align: left;
-				    	margin-bottom: 41px;
 					}
-						.b-describe ul li div .marg-1{
-							margin-bottom: 41px;		
+						.b-describe-2 .b-block .b-cont p{
+							color: #292929;
 						}
-						.b-describe ul li div .marg-2{
-							margin-bottom: 22px;
+						.b-describe-4 .b-block .b-cont p{
+							color: #292929;
 						}
-						.b-describe ul li:nth-child(2n) div p{
-						    color: #292929;
-						}
-					.b-describe ul li div .b-green-butt{
+					.b-describe div .b-green-butt{
 						color: #2E2E2E;
 						margin-left: 30px;
 					    font-family: "OSR";
@@ -513,7 +512,7 @@ input:-moz-placeholder {
 					    padding: 5px 12px;
 					    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
 					}
-					.b-describe ul li div .b-green-border-1{
+					.b-describe div .b-green-border{
 						color: #FFF;
 					    font-family: "OSR";
 					    font-size: 17px;
@@ -522,22 +521,19 @@ input:-moz-placeholder {
 					    border-radius: 9px;
 					    padding: 4px 51px;
 					}
-						.b-describe ul li div .b-green-border-1:hover{
+						.b-describe div .b-green-border-1:hover{
 							background-color: rgba(221, 250, 156, 0.10);
 						}
-						.b-describe ul li div .b-green-border-1:active{
+						.b-describe div .b-green-border-1:active{
 							position: relative;
 							top: 1px;
 						}
-					.b-describe ul li div .b-green-border-2{
-						color: #2E2E2E;
-					    font-family: "OSR";
-					    font-size: 17px;
-					    text-transform: uppercase;
-					    border: 2px solid #A1CC14;
-					    border-radius: 9px;
-					    padding: 4px 51px;
-					}
+							.b-describe-2 div .b-green-border{
+								color: #2E2E2E;
+							}
+							.b-describe-4 div .b-green-border{
+								color: #2E2E2E;
+							}
 .b-reviews{
 	border-top: 2px solid #b7b7bc;
 }
@@ -552,7 +548,6 @@ input:-moz-placeholder {
 		}
 		.b-reviews .b-block > div{
 			position: relative;
-			height: 233px;
 			width: 1050px;
 			margin-left: 18px;
 			margin-top: 52px;
@@ -574,14 +569,21 @@ input:-moz-placeholder {
 					.b-reviews ul li img{
 						float: left;
 						margin-left: 18px;
-						margin-right: 5px;
+						margin-right: 41px;
 					}
 					.b-reviews ul li div{
 						float: left;
-						background-image: url("../i/comments/comment-1.png");
-						width: 703px;
-						height: 203px;
+						border: 3px solid #bdbdbe;
+						border-radius: 30px;
+						/*background-image: url("../i/comments/comment-1.png");*/
+						width: 667px;
+						position: relative;
 					}
+						.b-reviews ul li div img{
+							position: absolute;
+							top: 22px;
+							left: -57px;
+						}
 						.b-reviews ul li div h3{
 							color: #28324E;
 						    font-family: "OSL";
@@ -589,20 +591,21 @@ input:-moz-placeholder {
 						    text-transform: uppercase;
 						    margin-top: 20px;
 						    text-align: left;
-						    margin-left: 90px;
+						    margin-left: 52px;
 						}
 							.b-reviews ul li div h3 b{
 								font-family: "OSB";
 								font-weight: 500;
 							}
 						.b-reviews ul li div p{
-							margin-left: 90px;
+							margin-left: 52px;
 							margin-top: 16px;
 							font-size: 15px;
 							color: #28324E;
 						    font-family: "OSL";
 						    width: 558px;
 						    text-align: left;
+						    padding-bottom: 15px;
 						}
 .b-question{
 	background-color: #28324e;
@@ -673,7 +676,7 @@ input:-moz-placeholder {
 				
 			}
 				.b-footer .left ul li{
-
+					margin-bottom: 2px;
 				}
 					.b-footer a:hover{
 						text-decoration: underline;
