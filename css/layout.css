@@ -1,5 +1,65 @@
 
 @font-face {
+    font-family: 'OSE';
+    src: url('../fonts/OpenSans-ExtraBold.eot');
+    src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBold.svg#OSE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OSB';
+    src: url('../fonts/OpenSans-Bold.eot');
+    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+         url('../fonts/OpenSans-Bold.woff') format('woff'),
+         url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold.svg#OSB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OSS';
+    src: url('../fonts/OpenSans-Semibold.eot');
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+         url('../fonts/OpenSans-Semibold.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold.svg#OSS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OSR';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.svg#OSR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OSL';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light.woff2') format('woff2'),
+         url('../fonts/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans-Light.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light.svg#OSL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
 	font-family: 'PFL';
 	src: url('../fonts/pdfintextcondpro-light-webfont.eot');
     src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +95,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1000px;
+	min-width: 1050px;
 	text-align: center;
 	font-family: 'PFL';
 	overflow-x: hidden;
@@ -97,7 +157,7 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1000px;
+	width: 1050px;
 	margin: 0px auto;
 }
 .b-absolute{
@@ -112,19 +172,502 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
 	color: #434343;
 }
-.b-orange-butt{
-
+.b-green-butt{
+	border-radius: 9px;
+    background-color: #a1cc14;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    box-shadow: 1.5px 2.6px 4px rgba(27, 24, 21, 0.75);
+    border-bottom: 2.07px solid #548F2D;
 }
-	.b-orange-butt:hover{
-		
-	}
-.b-1{
-	
-}
-	
+	.b-green-butt:hover{
+		background-color: #74c830;
+		cursor: pointer;
+	}	
 @media screen and (max-width: 1250px){
 	
 }
 @media screen and (max-width: 1020px){
 
 }
+.b-1{
+	padding-bottom: 21px;
+}
+	.b-1 .b-block{
+
+	}
+		.b-1 .left{
+			margin-top: 26px;
+		}
+			.b-1 .left img{
+				margin-right: 29px;
+			}
+			.b-1 .left p{
+				    color: #28324E;
+				    font-family: "OSR";
+				    font-size: 18px;
+				    font-weight: 400;
+				    text-align: left;
+				    margin-top: 3px;
+			}
+		.b-1 .right{
+
+		}
+			.b-1 .right p{
+				    color: #28324E;
+				    font-family: "OSL";
+				    font-size: 26px;
+				    font-weight: 300;
+				    margin-top: 8px;
+			}
+			.b-1 .right > a{
+				margin-top: 10px;
+				display: block;
+			    padding: 7px 26px;
+			    color: #363636;
+				font-family: "OSR";
+    			font-size: 17px;
+			}
+			.b-1 .right ul{
+				margin-top: 14px;
+				margin-right: 22px;
+			}
+				.b-1 .right ul li{
+					float: left;
+					margin-right: 7px;
+				}
+					.b-1 .right ul li:nth-child(1) div{
+						width: 29px;
+						height: 28px;
+						background-image: url("../i/vk.png");
+					}
+						.b-1 .right ul li:nth-child(1) div:hover{
+							background-image: url("../i/vk-hover.png");
+						}
+					.b-1 .right ul li:nth-child(2) div{
+						width: 29px;
+						height: 28px;
+						background-image: url("../i/fb.png");
+					}
+						.b-1 .right ul li:nth-child(2) div:hover{
+							background-image: url("../i/fb-hover.png");
+						}
+					.b-1 .right ul li:nth-child(3) div{
+						width: 29px;
+						height: 28px;
+						background-image: url("../i/tw.png");
+					}
+						.b-1 .right ul li:nth-child(3) div:hover{
+							background-image: url("../i/tw-hover.png");
+						}
+.b-2{
+	background-image: url("../i/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+}
+	.b-2 .w-1{
+		position: absolute;
+		top: 141px;
+		left: 282px;
+		z-index: 1;
+	}
+	.b-2 .w-2{
+		position: absolute;
+		top: 0px;
+		  left: 50%;
+  margin-left: -42px;
+		z-index: 1;
+	}
+	.b-2 .b-block{
+		position: relative;
+	}
+		.b-2 .left{
+			background-image: url("../i/cars.png");
+			width: 634px;
+    		height: 298px;
+    		border-radius: 30px;
+    		border: 9.58px solid rgba(255, 255, 255, 0.58);
+    		margin-top: 35px;
+    		margin-bottom: 34px;
+    		background-repeat: no-repeat;
+    		position: relative;
+  			z-index: 1;
+		}
+		.b-2 .right{
+			z-index: 0;
+  			position: relative;
+			width: 378px;
+   			height: 311px;
+			background: -moz-linear-gradient(top,  rgba(0,146,206,0.91) 0%, rgba(97,123,186,0.91) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,146,206,0.91)), color-stop(100%,rgba(97,123,186,0.91))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(0,146,206,0.91) 0%,rgba(97,123,186,0.91) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(0,146,206,0.91) 0%,rgba(97,123,186,0.91) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(0,146,206,0.91) 0%,rgba(97,123,186,0.91) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(0,146,206,0.91) 0%,rgba(97,123,186,0.91) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e80092ce', endColorstr='#e8617bba',GradientType=0 ); /* IE6-9 */
+   			border-radius: 30px;
+   			margin-top: 35px;
+   			overflow: hidden;
+		}
+			.b-2 .right h2{
+				    color: #FFF;
+				    font-family: "OSS";
+				    font-size: 17px;
+				    font-weight: 600;
+				    text-transform: uppercase;
+				    background-color: rgba(161, 204, 20, 0.91);
+				    margin-top: 29px;
+				    padding: 4.5px 0px;
+			}
+				.b-2 .right .center{
+					margin-top: 26px;
+				}
+					.b-2 .right .center img{
+						float: left;
+						margin-left: 50px;
+						margin-top: 2px;
+						margin-right: 11px;
+					}
+					.b-2 .right .center p{
+						color: #FFF;
+						font-family: "OSR";
+						font-size: 16px;
+						font-weight: 400;
+						text-align: left;
+						float: left;
+						margin-top: -7px;
+						line-height: 20px;
+					}
+				.b-2 .right .bottom{
+					margin-top: 36px;
+				}
+					.b-2 .right .bottom p{
+					    color: #FFF;
+					    font-family: "OSS";
+					    font-size: 17px;
+					    text-transform: uppercase;
+					    margin-bottom: 20px;
+					}
+.b-3{
+	background-color: #28324e;
+	position: relative;
+	z-index: 1;
+}
+	.b-3 .b-block{
+
+	}
+		.b-3 ul{
+
+		}
+			.b-3 ul li{
+				float: left;
+			}
+				.b-3 ul li p{
+					font-family: "OSL";
+				    font-size: 17px;
+				    text-transform: uppercase;
+				    color: #FFF;
+				    float: left;
+				    margin-top: 13px;
+				    margin-bottom: 13px;
+					margin-right: 30px;
+				}
+					.b-3 ul li p:hover{
+						color: #217eae;
+					}
+					.b-3 ul li:last-child p{
+						margin-right: 0px;
+					}
+				.b-3 ul li img{
+					float: left;
+					margin-top: 5px;
+					margin-right: 25px;
+				}
+.b-4{
+	padding-bottom: 75px;
+}
+	.b-4 .b-block{
+		text-align: center;
+	}
+		.b-4 h1{
+			color: #28324E;
+    		font-family: "OSS";
+    		margin-top: 47px;
+		}
+		.b-4 .b-block > p{
+			color: #28324E;
+    		font-family: "OSL";
+    		display: inline-block;
+    		margin-top: 30px;
+		}
+		.b-4 ul{
+			margin-top: 40px;
+		}
+			.b-4 ul li{
+				float: left;
+				text-align: center;
+				margin-right: 32px;
+			}
+				.b-4 ul li:last-child{
+					margin-right: 0px;
+				}
+				.b-4 ul li div{
+					display: inline-block;
+					height: 91px;
+					width: 91px;
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+				}
+					.b-4 ul li:nth-child(1) div{
+						background-image: url("../i/main/b_1/1.png");
+					}
+					.b-4 ul li:nth-child(2) div{
+						background-image: url("../i/main/b_1/2.png");
+					}
+					.b-4 ul li:nth-child(3) div{
+						background-image: url("../i/main/b_1/3.png");
+					}
+					.b-4 ul li:nth-child(4) div{
+						background-image: url("../i/main/b_1/4.png");
+					}
+					.b-4 ul li:nth-child(5) div{
+						background-image: url("../i/main/b_1/5.png");
+					}
+					.b-4 ul li:nth-child(6) div{
+						background-image: url("../i/main/b_1/6.png");
+					}
+				.b-4 ul li p{
+					margin-top: 27px;
+					color: #28324E;
+				    font-family: "OSR";
+				    font-size: 15px;
+				}
+.b-5{
+	
+}
+	.b-5 .b-block{
+		width: 100%;
+		text-align: center;
+	}
+		.b-5 ul{
+
+		}
+			.b-5 ul li{
+				background-color: #28324e;
+			}
+			.b-5 ul li:nth-child(2n){
+				background-color: #FFF;
+			}
+				.b-5 ul li h2{
+					padding-top: 31px;
+					color: #FFF;
+		    		font-family: "OSS";
+		    		font-size: 29px;
+				}
+				.b-5 ul li div{
+					margin-top: 41px;
+					margin-bottom: 42px;
+					width: 937px;
+					display: inline-block;
+				}
+					.b-5 ul li div img{
+						float: left;
+						margin-right: 32px;
+					}
+					.b-5 ul li div h3{
+						text-align: left;
+						color: #A1CC14;
+					    font-family: "OSR";
+					    font-size: 23px;
+					}
+					.b-5 ul li div p{
+						margin-top: 29px;
+						color: #FFF;
+				    	font-family: "OSL";
+				    	font-size: 16px;
+				    	text-align: left;
+				    	margin-bottom: 41px;
+					}
+						.b-5 ul li div .marg-1{
+							margin-bottom: 41px;		
+						}
+						.b-5 ul li div .marg-2{
+							margin-bottom: 22px;
+						}
+						.b-5 ul li:nth-child(2n) div p{
+						    color: #292929;
+						}
+					.b-5 ul li div .b-green-butt{
+						color: #2E2E2E;
+						margin-left: 30px;
+					    font-family: "OSR";
+					    font-size: 17px;
+					    padding: 5px 12px;
+					    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+					}
+					.b-5 ul li div .b-green-border-1{
+						color: #FFF;
+					    font-family: "OSR";
+					    font-size: 17px;
+					    text-transform: uppercase;
+					    border: 2px solid #A1CC14;
+					    border-radius: 9px;
+					    padding: 4px 51px;
+					}
+					.b-5 ul li div .b-green-border-2{
+						color: #2E2E2E;
+					    font-family: "OSR";
+					    font-size: 17px;
+					    text-transform: uppercase;
+					    border: 2px solid #A1CC14;
+					    border-radius: 9px;
+					    padding: 4px 51px;
+					}
+.b-6{
+	border-top: 2px solid #b7b7bc;
+}
+	.b-6 .b-block{
+
+	}
+		.b-6 h2{
+			color: #28324E;
+		    font-family: "OSS";
+		    font-size: 29px;
+		    margin-top: 30px;
+		}
+		.b-6 .b-block > div{
+			position: relative;
+			height: 233px;
+			width: 1050px;
+			margin-left: 18px;
+			margin-top: 52px;
+			margin-bottom: 48px;
+		}
+			.b-6 .left-ar{
+				float: left;
+				margin-top: 70px;
+			}
+			.b-6 .right-ar{
+				margin-top: 70px;
+			}
+			.b-6 ul{
+
+			}
+				.b-6 ul li{
+
+				}
+					.b-6 ul li img{
+						float: left;
+						margin-left: 18px;
+						margin-right: 5px;
+					}
+					.b-6 ul li div{
+						float: left;
+						background-image: url("../i/comments/comment-1.png");
+						width: 703px;
+						height: 203px;
+					}
+						.b-6 ul li div h3{
+							color: #28324E;
+						    font-family: "OSL";
+						    font-size: 19px;
+						    text-transform: uppercase;
+						    margin-top: 20px;
+						    text-align: left;
+						    margin-left: 90px;
+						}
+							.b-6 ul li div h3 b{
+								font-family: "OSB";
+								font-weight: 500;
+							}
+						.b-6 ul li div p{
+							margin-left: 90px;
+							margin-top: 16px;
+							font-size: 15px;
+							color: #28324E;
+						    font-family: "OSL";
+						    width: 558px;
+						    text-align: left;
+						}
+.b-7{
+	background-color: #28324e;
+}
+	.b-7 .b-block{
+
+	}
+		.b-7 .b-block .left{
+			margin-top: 14px;
+			margin-bottom: 16px;
+		}
+			.b-7 .b-block .left p{
+				color: #FFF;
+    			font-family: "OSR";
+    			font-size: 14px;
+    			text-align: left;
+			}
+				.b-7 .b-block .left p b{
+					font-size: 15px;
+    				font-weight: 500;
+    				font-family: "OSS";
+				}
+	.b-7 form{
+		padding-top: 31px;
+		float: right;
+	}
+		.b-7 form input[type="text"]{
+			color: #FFF;
+		    font-family: "OSL";
+		    font-size: 15px;
+		    border: 2px solid #FFF;
+		    border-radius: 8px;
+		    text-align: center;
+		    background-color: #28324e;
+		    width: 179px;
+    		height: 29px;
+    		margin-right: 10px;
+		}
+		.b-7 form input[type="submit"]{
+			padding: 4.5px 32px;
+			color: #2E2E2E;
+    		font-family: "OSR";
+    		font-size: 15px;
+    		border: none;
+    		margin-right: 7px;
+    		margin-left: 14px;
+		}
+.b-8{
+
+}
+	.b-8 .b-block{
+		padding-bottom: 63px;
+	}
+		.b-8 .left{
+			margin-left: 138px;
+			/*margin-right: 86px;*/
+		}
+			.b-8 .left h2{
+				margin-top: 27px;
+				color: #28324E;
+			    font-family: "OSB";
+			    font-size: 14px;
+			    text-transform: uppercase;
+			    text-align: left;
+			    margin-bottom: 20px;
+			}
+			.b-8 .left ul{
+				
+			}
+				.b-8 .left ul li{
+
+				}
+					.b-8 .left p{
+						color: #28324E;
+					    font-family: "OSR";
+					    font-size: 14px;
+					    text-align: left;
+					}
+						.b-8 .left p b{
+							font-weight: 500;
+							font-family: "OSB";
+						}
