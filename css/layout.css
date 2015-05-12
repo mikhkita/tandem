@@ -178,7 +178,7 @@ input:-moz-placeholder {
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     box-shadow: 1.5px 2.6px 4px rgba(27, 24, 21, 0.75);
-    border-bottom: 2.07px solid #548F2D;
+    border-bottom: 2px solid #548F2D;
 }
 	.b-green-butt:hover{
 		background-color: #74c830;
