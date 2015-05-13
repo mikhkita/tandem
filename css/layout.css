@@ -504,7 +504,7 @@ input:-moz-placeholder {
 				.b-describe .b-block .b-cont{
 					margin-top: 41px;
 					margin-bottom: 42px;
-					width: 937px;
+					width: 940px;
 					display: inline-block;
 				}
 					.b-describe .b-block .b-cont img{
@@ -513,7 +513,7 @@ input:-moz-placeholder {
 					}
 					.b-describe .b-cont-describe{
 						width: 600px;
-						height: 170px;
+						/*height: 170px;*/
 						margin-bottom: 20px;
 					}
 					.b-describe .b-block .b-cont h3{
