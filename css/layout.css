@@ -765,22 +765,32 @@ input:-moz-placeholder {
 			margin-bottom: 63px;
 		}
 .b-traffic{
-	background-image: url("../i/about/back.jpg");
+	background-image: url("../i/traffic-back.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 }
 	.b-traffic .b-block{
-
+		width: 100%;
+		text-align: center;
 	}
-		.b-traffic .b-block .clearfix{
-			display: table;
+		.b-traffic .clearfix{
+			width: 1050px;
+			display: inline-block;
+			padding-bottom: 30px;
+			padding-top: 20px;
+		}
+		.b-traffic .b-traffic-cont{
+			background-color: rgba(32, 50 ,78, 0.92);
+		}
+		.b-traffic .b-traffic-cont-1{
+			background-color: rgba(48, 64, 92, 0.89);
 		}
 		.b-traffic h2{
 			color: #3CB4E5;
 			font-family: "RCB";
 			font-size: 24px;
 			padding-top: 30px;
-
+			margin-bottom: 15px;
 		}
 		.b-traffic .b-country{
 			background-image: url("../i/about/russia.png");
@@ -806,14 +816,13 @@ input:-moz-placeholder {
 		.b-traffic .b-country-traffic{
 			width: 726px;
 			text-align: left;
-			display: table-cell;
-			vertical-align: middle;
 		}
 			.b-traffic .b-country-traffic h3{
 				color: #FFF;
 				font-family: "RCBI";
 				font-size: 14px;
 				margin-bottom: 22px;
+				margin-top: 15px;
 			}
 			.b-traffic .b-country-traffic p{
 				color: #FFF;
@@ -826,4 +835,8 @@ input:-moz-placeholder {
 					font-size: 14px;	
 					text-decoration: underline;
 				}
+	.b-traffic .white-line{
+		height: 20px;
+		background-color: #FFF;
+	}
 /*О компании----------------------------------------------------------*/
