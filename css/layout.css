@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'RCBI';
+    src: url('../fonts/RobotoCondensed-BoldItalic.eot');
+    src: url('../fonts/RobotoCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-BoldItalic.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-BoldItalic.woff') format('woff'),
+         url('../fonts/RobotoCondensed-BoldItalic.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-BoldItalic.svg#RCBI') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 @font-face {
     font-family: 'OSE';
     src: url('../fonts/OpenSans-ExtraBold.eot');
@@ -10,7 +21,28 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'RCR';
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular.svg#RCR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RCB';
+    src: url('../fonts/RobotoCondensed-Bold.eot');
+    src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold.svg#RCR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'OSB';
     src: url('../fonts/OpenSans-Bold.eot');
@@ -619,7 +651,7 @@ input:-moz-placeholder {
 		}
 			.b-question .b-block .left p{
 				color: #FFF;
-    			font-family: "OSR";
+    			font-family: "OSL";
     			font-size: 14px;
     			text-align: left;
 			}
@@ -692,3 +724,106 @@ input:-moz-placeholder {
 							font-family: "OSB";
 						}
 /*Главная-------------------------------------------------------------*/
+/*О компании----------------------------------------------------------*/
+.b-about{
+
+}
+	.b-about .b-block{
+
+	}
+		.b-about h2{
+			margin-top: 34px;
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+		}
+		.b-about .b-block > div{
+			margin-top: 65px;
+		}
+		.b-about .left-describe{
+			width: 335px;
+		}
+			.b-about p{
+				color: #252525;
+				font-family: "RCR";
+				font-size: 14px;
+				text-align: justify;
+				width: 335px;
+			}
+		.b-about .about-img{
+			background-image: url("../i/about/cars.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: 50% 50%;
+			border-radius: 30px;
+			box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.65);
+			width: 310px;
+			height: 208px;
+			margin-left: 40px;
+		}
+		.b-about img{
+			margin-bottom: 63px;
+		}
+.b-traffic{
+	background-image: url("../i/about/back.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+	.b-traffic .b-block{
+
+	}
+		.b-traffic .b-block .clearfix{
+			display: table;
+		}
+		.b-traffic h2{
+			color: #3CB4E5;
+			font-family: "RCB";
+			font-size: 24px;
+			padding-top: 30px;
+
+		}
+		.b-traffic .b-country{
+			background-image: url("../i/about/russia.png");
+			background-position: 50% 50%;
+			width: 282px;
+			height: 208px;
+			background-repeat: no-repeat;
+		}
+		.b-traffic .b-country-1{
+			background-image: url("../i/about/europe.png");
+			background-position: 50% 50%;
+			width: 282px;
+			height: 208px;
+			background-repeat: no-repeat;
+		}
+		.b-traffic .b-country-2{
+			background-image: url("../i/about/finland.png");
+			background-position: 50% 50%;
+			width: 282px;
+			height: 208px;
+			background-repeat: no-repeat;
+		}
+		.b-traffic .b-country-traffic{
+			width: 726px;
+			text-align: left;
+			display: table-cell;
+			vertical-align: middle;
+		}
+			.b-traffic .b-country-traffic h3{
+				color: #FFF;
+				font-family: "RCBI";
+				font-size: 14px;
+				margin-bottom: 22px;
+			}
+			.b-traffic .b-country-traffic p{
+				color: #FFF;
+				font-family: "RCR";
+				font-size: 14px;	
+			}
+				.b-traffic .b-country-traffic p a{
+					color: #FFF;
+					font-family: "RCR";
+					font-size: 14px;	
+					text-decoration: underline;
+				}
+/*О компании----------------------------------------------------------*/

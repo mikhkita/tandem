@@ -1,60 +1,78 @@
 
 @font-face {
-    font-family: 'OSE';
-    src: url('../fonts/OpenSans-ExtraBold.eot');
-    src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
-         url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
-         url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
-         url('../fonts/OpenSans-ExtraBold.svg#OSE') format('svg');
+    font-family: 'RCB';
+    src: url('../fonts/RobotoCondensed-Bold.eot');
+    src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Bold.svg#RCB') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'OSB';
-    src: url('../fonts/OpenSans-Bold.eot');
-    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Bold.woff2') format('woff2'),
-         url('../fonts/OpenSans-Bold.woff') format('woff'),
-         url('../fonts/OpenSans-Bold.ttf') format('truetype'),
-         url('../fonts/OpenSans-Bold.svg#OSB') format('svg');
+    font-family: 'RCBI';
+    src: url('../fonts/RobotoCondensed-BoldItalic.eot');
+    src: url('../fonts/RobotoCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-BoldItalic.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-BoldItalic.woff') format('woff'),
+         url('../fonts/RobotoCondensed-BoldItalic.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-BoldItalic.svg#RCBI') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'OSS';
-    src: url('../fonts/OpenSans-Semibold.eot');
-    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
-         url('../fonts/OpenSans-Semibold.woff') format('woff'),
-         url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
-         url('../fonts/OpenSans-Semibold.svg#OSS') format('svg');
+    font-family: 'RCR';
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Regular.svg#RCR') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'OSR';
-    src: url('../fonts/OpenSans-Regular.eot');
-    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('../fonts/OpenSans-Regular.woff') format('woff'),
-         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
-         url('../fonts/OpenSans-Regular.svg#OSR') format('svg');
+    font-family: 'RCRI';
+    src: url('../fonts/RobotoCondensed-Italic.eot');
+    src: url('../fonts/RobotoCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Italic.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Italic.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Italic.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Italic.svg#RCRI') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'OSL';
-    src: url('../fonts/OpenSans-Light.eot');
-    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/OpenSans-Light.woff2') format('woff2'),
-         url('../fonts/OpenSans-Light.woff') format('woff'),
-         url('../fonts/OpenSans-Light.ttf') format('truetype'),
-         url('../fonts/OpenSans-Light.svg#OSL') format('svg');
+    font-family: 'RCL';
+    src: url('../fonts/RobotoCondensed-Light.eot');
+    src: url('../fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-Light.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-Light.woff') format('woff'),
+         url('../fonts/RobotoCondensed-Light.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-Light.svg#RCL') format('svg');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RCLI';
+    src: url('../fonts/RobotoCondensed-LightItalic.eot');
+    src: url('../fonts/RobotoCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
+         url('../fonts/RobotoCondensed-LightItalic.woff') format('woff'),
+         url('../fonts/RobotoCondensed-LightItalic.ttf') format('truetype'),
+         url('../fonts/RobotoCondensed-LightItalic.svg#RCLI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
