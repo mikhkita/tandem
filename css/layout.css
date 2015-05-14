@@ -910,3 +910,90 @@ input:-moz-placeholder {
 				margin-top: -6px;
 			}			
 /*Информация----------------------------------------------------------*/
+/*Отзывы--------------------------------------------------------------*/
+.b-main-reviews{
+
+}
+	.b-main-reviews .b-block{
+		text-align: center;
+	}
+		.b-main-reviews h2{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			margin-top: 40px;
+			margin-bottom: 48px;
+		}
+			.b-main-reviews .clearfix{
+				display: inline-block;
+				margin-bottom: 53px;
+			}
+			.avatar{
+				background-image: url("../i/comments/mask.png");
+				background-position: 50% 50%;
+				background-size: cover;
+				width: 208px;
+				height: 208px;
+				border-radius: 50%;
+				border: 10px solid #8a909e;
+				margin-right: 41px;
+				margin-top: -13px;
+			}
+			.b-main-reviews .review-2 .avatar{
+				margin-left: 41px;
+				margin-right: 0px;
+			}
+			.b-main-reviews .b-block .review {
+				/*float: left;*/
+				border: 3px solid #bdbdbe;
+				border-radius: 30px;
+				/*background-image: url("../i/comments/comment-1.png");*/
+				width: 667px;
+				position: relative;
+			}
+				.b-main-reviews .b-block .review-1 img{
+					position: absolute;
+					top: 22px;
+					left: -39px;
+				}
+				.b-main-reviews .b-block .review-2 img{
+					position: absolute;
+					top: 22px;
+					left: -39px;
+				}
+				.b-main-reviews .b-block .review h3{
+					color: #28324E;
+				    font-family: "OSL";
+				    font-size: 19px;
+				    text-transform: uppercase;
+				    margin-top: 20px;
+				    text-align: left;
+				    margin-left: 52px;
+				}
+					.b-main-reviews .b-block .review h3 b{
+						font-family: "OSB";
+						font-weight: 500;
+					}
+				.b-main-reviews .b-block .review p{
+					margin-left: 52px;
+					margin-top: 16px;
+					font-size: 15px;
+					color: #28324E;
+				    font-family: "OSL";
+				    width: 558px;
+				    text-align: left;
+				    padding-bottom: 15px;
+				}
+		.b-main-reviews .b-block a{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			text-decoration: underline;
+			display: inline-block;
+			margin-top: -10px;
+			margin-bottom: 52px;
+		}
+			.b-main-reviews .b-block a:hover{
+				text-decoration: none;
+			}
+/*Отзывы--------------------------------------------------------------*/
