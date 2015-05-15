@@ -1054,3 +1054,173 @@ input:-moz-placeholder {
 					display: block;
 				}
 /*Автофлот--------------------------------------------------------------*/
+/*Контакты--------------------------------------------------------------*/
+.b-contacts{
+
+}
+	.b-contacts .b-block{
+		text-align: center;
+	}
+		.b-contacts h2{
+			margin-top: 40px;
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+		}
+			.b-contacts .b-block > .clearfix{
+				margin-left: 93px;
+				margin-top: 35px;
+				margin-bottom: 70px;
+			}
+		.b-contacts .coordinates{
+
+		}
+			.b-contacts .coordinates h3{
+				color: #A1CC14;
+				font-size: 20px;
+				font-family: "RCB";
+				text-align: left;
+			}	
+			.b-contacts .coordinates p{
+				color: #252525;
+				font-size: 14px;
+				text-align: left;
+				font-family: "RCR";
+				margin-top: 15px;
+				margin-bottom: 15px;
+				line-height: 17px;
+			}
+				.b-contacts .coordinates p b{
+					font-weight: 500;
+					color: #252525;
+					font-size: 14px;
+					font-family: "RCB";
+				}
+				.b-contacts .coordinates p a:hover{
+					text-decoration: underline;
+				}
+			.b-contacts .coordinates .mini-map{
+				width: 286px;
+				height: 284px;
+				background-color: black;
+				margin-top: 13px;
+				margin-bottom: 15px;
+			}
+			.b-contacts .coordinates ul{
+				margin-top: 15px;
+			}	
+				.b-contacts .coordinates ul li{
+					float: left;
+					margin-right: 10px;
+				}
+					.b-contacts .coordinates ul li:last-child{
+						margin-right: 0px;
+					}
+					.b-contacts .coordinates ul li:nth-child(1) div{
+						background-image: url("../i/contacts/fb.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(1) div:hover{
+							background-image: url("../i/contacts/fb-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(2) div{
+						background-image: url("../i/contacts/tw.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(2) div:hover{
+							background-image: url("../i/contacts/tw-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(3) div{
+						background-image: url("../i/contacts/vk.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(3) div:hover{
+							background-image: url("../i/contacts/vk-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(4) div{
+						background-image: url("../i/contacts/ok.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(4) div:hover{
+							background-image: url("../i/contacts/ok-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(5) div{
+						background-image: url("../i/contacts/lj.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(5) div:hover{
+							background-image: url("../i/contacts/lj-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(6) div{
+						background-image: url("../i/contacts/fl.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(6) div:hover{
+							background-image: url("../i/contacts/fl-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(7) div{
+						background-image: url("../i/contacts/mail.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(7) div:hover{
+							background-image: url("../i/contacts/mail-hover.png");
+						}
+					.b-contacts .coordinates ul li:nth-child(8) div{
+						background-image: url("../i/contacts/yd.png");
+						background-position: 50% 50%;
+						width: 34px;
+						height: 33px;
+					}
+						.b-contacts .coordinates ul li:nth-child(8) div:hover{
+							background-image: url("../i/contacts/yd-hover.png");
+						}
+		.b-contacts .b-region{
+			margin-left: 15px;
+			margin-top: 6px;
+		}
+			.b-contacts .b-region ul{
+
+			}
+				.b-contacts .b-region ul li{
+					float: left;
+
+				}
+					.b-contacts .b-region ul li p{
+						color: #AFD349;
+						font-family: "RCB";
+						font-size: 17px;
+						margin-right: 10px;
+					}
+					.b-contacts .b-region ul li a{
+						color: #AFD349;
+						font-family: "RCB";
+						font-size: 17px;
+						text-transform: uppercase;
+						padding: 1.5px 13px;
+					}
+						.b-contacts .b-region ul li a:hover{
+							background-color: #1e2e4e;
+							color: #FFF;
+						}
+			.b-contacts .b-region .big-map{
+				width: 526px;
+				height: 565px;
+				background-color: black;
+				margin-top: 29px;
+			}
+
+/*Контакты--------------------------------------------------------------*/
