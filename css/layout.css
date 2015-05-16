@@ -1473,7 +1473,22 @@ input:-moz-placeholder {
 					.b-russia table tr td:nth-child(5n){
 						border-right: none;
 					}
+					.b-russia table tr td:first-child{
+						text-align: left;
+						padding-left: 25px;
+					}
 					.b-russia table tr td:nth-child(2n+2){
 						background-color: #f0f0f0;
 					}
 /*Перевозки по России----------------------------------------------------*/
+/*Новости-------------------------------------------------------------*/
+.b-news{
+
+}
+	.b-news .b-block{
+
+	}
+		.b-news h2{
+
+		}
+/*Новости-------------------------------------------------------------*/
