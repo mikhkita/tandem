@@ -1486,9 +1486,88 @@ input:-moz-placeholder {
 
 }
 	.b-news .b-block{
-
+		text-align: center;
 	}
 		.b-news h2{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			margin-top: 40px;
+			margin-bottom: 55px;
+		}
+		.b-news .news-describe{
 
+		}
+			.b-news .b-block .news-describe  .ava{
+				width: 218px;
+				height: 163px;
+				background-image: url("../i/news/1.jpg");
+				background-position: 50% 50%;
+				background-size: cover;
+				margin-right: 35px;
+			}
+			.b-news .b-block .news-describe  h3{
+				color: #4A82C1;
+				font-family: "OSS";
+				font-size: 14px;
+				text-align: left;
+				text-transform: uppercase;
+			}
+			.b-news .b-block .news-describe  h4{
+				color: #444;
+				font-family: "OSR";
+				text-align: left;
+				font-size: 12px;
+				text-transform: uppercase;
+				margin-top: 5px;
+				margin-bottom: 15px;
+			}
+			.b-news .b-block .news-describe  p{
+				color: #444;
+				font-family: "OSR";
+				font-size: 14px;
+				width: 335px;
+				text-align: justify;
+			}
+			.b-news .b-block .news-describe  a{
+				color: #444;
+				font-family: "OSS";
+				font-size: 18px;
+				text-align: right;
+				text-decoration: underline;
+				display: block;
+				margin-top: 13px;
+			}
+				.b-news .b-block .news-describe  a:hover{
+					text-decoration: none;
+				}
+			.b-news .b-block .news-describe  span{
+				width: 369px;
+				height: 1px;
+				background-color: #e3e3e3;
+				display: block;
+				margin-top: 13px;
+				margin-bottom: 25px;
+				margin-left: -94px;
+			}
+		.b-news .b-frame{
+			width: 405px;
+			height: 759px;
+			background-color: black;
+		}
+		.b-news .b-green{
+			margin-top: 43px;
+			margin-bottom: 48px;
+			display: inline-block;
+			height: 30px;
+		}
+		.b-news .b-green .b-green-butt{
+			color: #2E2E2E;
+			font-family: "OSR";
+			font-size: 15px;
+			font-weight: 400;
+			text-shadow: -0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+			padding: 4.5px 50px;
+			
 		}
 /*Новости-------------------------------------------------------------*/
