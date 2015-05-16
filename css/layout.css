@@ -1306,7 +1306,6 @@ input:-moz-placeholder {
 		.b-europe table{
 			overflow: hidden;
 			border-radius: 30px;
-			width: 630px;
 			border: 1px solid #828282;
 			display: inline-block;
 			margin-top: 59px;
@@ -1316,6 +1315,9 @@ input:-moz-placeholder {
 				border-bottom: 1px solid #b0b0b0;
 				vertical-align: middle;
 			}
+				.b-europe table tr:last-child{
+					border-bottom: none;
+				}
 				.b-europe table tr th{
 					color: #535353;
 					font-family: "RCB";
@@ -1351,3 +1353,127 @@ input:-moz-placeholder {
 						background-color: #f0f0f0;
 					}
 /*Перевозки в Европу----------------------------------------------------*/
+/*Перевозки по России----------------------------------------------------*/
+.b-russia{
+
+}
+	.b-block{
+
+	}
+		.b-russia h2{
+			margin-top: 40px;
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+		}
+		.b-russia .b-block .info{
+			margin-left: 56px;
+			margin-top: 50px;
+		}
+			.b-russia .b-block .info p{
+				color: #252525;
+				font-size: 14px;
+				font-family: "RCR";
+				width: 612px;
+				text-align: left;
+			}
+		.b-russia .b-form{
+			border-radius: 25px;
+			background-color: #28324E;
+			width: 277px;
+			height: 313px;
+			margin-top: 28px;
+			margin-left: 70px;
+		}
+			.b-russia .b-form h3{
+				font-size: 18px;
+				color: #FFF;
+				font-family: "OSS";
+				margin-top: 20px;
+			}
+			.b-russia .b-form p{
+				font-size: 14px;
+				font-family: "OSL";
+				color: rgba(255, 255, 255, 0.80);
+			}
+			.b-russia .b-form form{
+				margin-top: 22px;
+			}
+				.b-russia .b-form form input[type="text"]{
+					font-family: "OSR";
+					font-size: 15px;
+					text-align: center;
+					border: none;
+					border-radius: 8px;
+					margin-bottom: 14px;
+					border-bottom: 1px solid #a9adb8;
+					width: 181px;
+					height: 31px;
+				}
+				.b-russia .b-form form input[type="submit"]{
+					padding: 8.5px 49.5px;
+					margin-top: 5px;
+				}
+					.b-russia .b-form form input::-webkit-input-placeholder{
+						color: #28324E;
+					}
+					.b-russia .b-form form input:-moz-placeholder{
+						color: #28324E;
+					}
+		.b-russia table{
+			overflow: hidden;
+			border-radius: 30px;
+			border: 1px solid #828282;
+			display: inline-block;
+			margin-top: 59px;
+			margin-bottom: 88px;
+		}
+			.b-russia table tr{
+				border-bottom: 1px solid #b0b0b0;
+				vertical-align: middle;
+			}
+				.b-russia table tr:last-child{
+					border-bottom: none;
+				}
+				.b-russia table tr th{
+					color: #535353;
+					font-family: "RCB";
+					font-size: 14px;
+					border-right: 1px solid #b0b0b0;
+					min-height: 28px;
+					padding: 9px 0px;
+				}
+					.b-russia table tr th:nth-child(5n){
+						border-right: none;
+					}
+					.b-russia table tr th:nth-child(1){
+						width: 187px;
+						/*padding: 13.5px 0px;*/
+					}
+					.b-russia table tr th:nth-child(2){
+						width: 201px;
+					}
+					.b-russia table tr th:nth-child(3){
+						width: 193px;
+					}
+					.b-russia table tr th:nth-child(4){
+						width: 174px;
+					}
+					.b-russia table tr th:nth-child(5){
+						width: 195px;
+					}
+				.b-russia table tr td{
+					color: #535353;
+					height: 33px;
+					font-family: "RCR";
+					font-size: 14px;
+					border-right: 1px solid #b0b0b0;
+					background-color: #dedede;
+				}
+					.b-russia table tr td:nth-child(5n){
+						border-right: none;
+					}
+					.b-russia table tr td:nth-child(2n+2){
+						background-color: #f0f0f0;
+					}
+/*Перевозки по России----------------------------------------------------*/
