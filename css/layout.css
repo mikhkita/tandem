@@ -6,7 +6,7 @@
          url('../fonts/RobotoCondensed-BoldItalic.woff') format('woff'),
          url('../fonts/RobotoCondensed-BoldItalic.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-BoldItalic.svg#RCBI') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 
 }
@@ -18,7 +18,7 @@
          url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
          url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
          url('../fonts/OpenSans-ExtraBold.svg#OSE') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 @font-face {
@@ -29,7 +29,7 @@
          url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
          url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-Regular.svg#RCR') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 @font-face {
@@ -40,7 +40,7 @@
          url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
          url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-Bold.svg#RCR') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 @font-face {
@@ -51,7 +51,7 @@
          url('../fonts/OpenSans-Bold.woff') format('woff'),
          url('../fonts/OpenSans-Bold.ttf') format('truetype'),
          url('../fonts/OpenSans-Bold.svg#OSB') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 @font-face {
@@ -62,7 +62,7 @@
          url('../fonts/days-webfont.woff') format('woff'),
          url('../fonts/days-webfont.ttf') format('truetype'),
          url('../fonts/days-webfont.svg#daysregular') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 
 }
@@ -74,7 +74,7 @@
          url('../fonts/OpenSans-Semibold.woff') format('woff'),
          url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
          url('../fonts/OpenSans-Semibold.svg#OSS') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 
@@ -86,7 +86,7 @@
          url('../fonts/OpenSans-Regular.woff') format('woff'),
          url('../fonts/OpenSans-Regular.ttf') format('truetype'),
          url('../fonts/OpenSans-Regular.svg#OSR') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 
@@ -98,7 +98,7 @@
          url('../fonts/OpenSans-Light.woff') format('woff'),
          url('../fonts/OpenSans-Light.ttf') format('truetype'),
          url('../fonts/OpenSans-Light.svg#OSL') format('svg');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 
@@ -108,7 +108,7 @@
     src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/pdfintextcondpro-light-webfont.woff') format('woff'),
          url('../fonts/pdfintextcondpro-light-webfont.ttf') format('truetype');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 
@@ -118,7 +118,7 @@
     src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
          url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
+    al;
     font-style: normal;
 }
 
@@ -143,6 +143,7 @@ body {
 	font-family: 'PFL';
 	overflow-x: hidden;
 	color: #472275;
+	font-weight: 500;
 }
 a{
 	text-decoration: none;
@@ -221,8 +222,9 @@ input:-moz-placeholder {
     text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     box-shadow: 1.5px 2.6px 4px rgba(27, 24, 21, 0.75);
-    border-bottom: 2px solid #548F2D;
     border: none;
+    border-bottom: 2px solid #548F2D;
+    display: inline-block;
 }
 	.b-green-butt:hover{
 		background-color: #74c830;
@@ -242,14 +244,19 @@ input:-moz-placeholder {
 }
 /*Главная-------------------------------------------------------------*/
 .b-header{
-	height: 113px;
+	/*height: 113px;*/
 }
 	.b-header .b-block{
 
 	}
 		.b-header .left{
 			margin-top: 26px;
+			margin-bottom: 35px;
 		}
+			.b-header .left a{
+				display: block;
+				font-size: 0px;
+			}
 			.b-header .left img{
 				margin-right: 29px;
 			}
@@ -257,18 +264,18 @@ input:-moz-placeholder {
 				    color: #28324E;
 				    font-family: "OSR";
 				    font-size: 18px;
-				    font-weight: 400;
+				    
 				    text-align: left;
 				    margin-top: 3px;
 			}
 		.b-header .right{
-
+			/*margin-bottom: 23px;*/
 		}
 			.b-header .right p{
 				    color: #28324E;
 				    font-family: "OSL";
 				    font-size: 26px;
-				    font-weight: 300;
+				    
 				    margin-top: 8px;
 			}
 			.b-header .right > a{
@@ -315,7 +322,7 @@ input:-moz-placeholder {
 	background-image: url("../i/back.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
-	position: relative;
+	/*position: relative;*/
 }
 	.b-top-describe .w-1{
 		position: absolute;
@@ -339,7 +346,7 @@ input:-moz-placeholder {
 			width: 634px;
     		height: 298px;
     		border-radius: 30px;
-    		border: 9.58px solid rgba(255, 255, 255, 0.58);
+    		box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.58);
     		margin-top: 35px;
     		margin-bottom: 34px;
     		background-repeat: no-repeat;
@@ -350,7 +357,7 @@ input:-moz-placeholder {
 			z-index: 0;
   			position: relative;
 			width: 378px;
-   			height: 311px;
+   			/*height: 311px;*/
 			background: -moz-linear-gradient(top,  rgba(0,146,206,0.91) 0%, rgba(97,123,186,0.91) 100%); /* FF3.6+ */
 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,146,206,0.91)), color-stop(100%,rgba(97,123,186,0.91))); /* Chrome,Safari4+ */
 			background: -webkit-linear-gradient(top,  rgba(0,146,206,0.91) 0%,rgba(97,123,186,0.91) 100%); /* Chrome10+,Safari5.1+ */
@@ -366,7 +373,7 @@ input:-moz-placeholder {
 				    color: #FFF;
 				    font-family: "OSS";
 				    font-size: 17px;
-				    font-weight: 600;
+				    
 				    text-transform: uppercase;
 				    background-color: rgba(161, 204, 20, 0.91);
 				    margin-top: 29px;
@@ -385,7 +392,7 @@ input:-moz-placeholder {
 						color: #FFF;
 						font-family: "OSR";
 						font-size: 16px;
-						font-weight: 400;
+						
 						text-align: left;
 						float: left;
 						margin-top: -7px;
@@ -393,6 +400,7 @@ input:-moz-placeholder {
 					}
 				.b-top-describe .right .bottom{
 					margin-top: 36px;
+					margin-bottom: 28px;
 				}
 					.b-top-describe .right .bottom p{
 					    color: #FFF;
@@ -446,6 +454,7 @@ input:-moz-placeholder {
 			color: #28324E;
     		font-family: "OSS";
     		margin-top: 47px;
+    		font-size: 29px;
 		}
 		.b-main-describe .b-block > p{
 			color: #28324E;
@@ -522,7 +531,7 @@ input:-moz-placeholder {
 				}
 					.b-describe .b-block .b-cont img{
 						float: left;
-						margin-right: 32px;
+						/*margin-right: 32px;*/
 					}
 					.b-describe .b-cont-describe{
 						width: 600px;
@@ -565,6 +574,7 @@ input:-moz-placeholder {
 					    border: 2px solid #8dcd00;
 					    border-radius: 9px;
 					    padding: 4px 51px;
+					    display: inline-block;
 					}
 						.b-describe div .b-green-border-1:hover{
 							background-color: rgba(221, 250, 156, 0.10);
@@ -640,7 +650,7 @@ input:-moz-placeholder {
 						}
 							.b-reviews ul li div h3 b{
 								font-family: "OSB";
-								font-weight: 500;
+								
 							}
 						.b-reviews ul li div p{
 							margin-left: 52px;
@@ -670,7 +680,7 @@ input:-moz-placeholder {
 			}
 				.b-question .b-block .left p b{
 					font-size: 15px;
-    				font-weight: 500;
+    				
     				font-family: "OSS";
 				}
 	.b-question form{
@@ -733,7 +743,7 @@ input:-moz-placeholder {
 					    text-align: left;
 					}
 						.b-footer .left p b{
-							font-weight: 500;
+							
 							font-family: "OSB";
 						}
 /*Главная-------------------------------------------------------------*/
@@ -887,7 +897,7 @@ input:-moz-placeholder {
 					color: #217EAE;
 					font-family: "Days";
 					font-size: 30px;
-					font-weight: 500;
+					
 				}
 				.b-info ul li span{
 					color: #252525;
@@ -896,11 +906,11 @@ input:-moz-placeholder {
 					position: relative;
   					top: -5px;
 				}
-		.b-info div{
+		.b-info .b-block div{
 			margin-left: 157px;
 			margin-top: 35px;
 		}
-			.b-info div img{
+			.b-info .b-block div img{
 				margin-right: 24px;
 			}
 			.b-info .b-block div p{
@@ -938,7 +948,7 @@ input:-moz-placeholder {
 				border-radius: 50%;
 				border: 10px solid #8a909e;
 				margin-right: 41px;
-				margin-top: -13px;
+				/*margin-top: -13px;*/
 			}
 			.b-main-reviews .review-2 .avatar{
 				margin-left: 41px;
@@ -951,6 +961,7 @@ input:-moz-placeholder {
 				/*background-image: url("../i/comments/comment-1.png");*/
 				width: 667px;
 				position: relative;
+				margin-top: 13px;
 			}
 				.b-main-reviews .b-block .review-1 img{
 					position: absolute;
@@ -973,7 +984,7 @@ input:-moz-placeholder {
 				}
 					.b-main-reviews .b-block .review h3 b{
 						font-family: "OSB";
-						font-weight: 500;
+						
 					}
 				.b-main-reviews .b-block .review p{
 					margin-left: 52px;
@@ -1092,7 +1103,7 @@ input:-moz-placeholder {
 				line-height: 17px;
 			}
 				.b-contacts .coordinates p b{
-					font-weight: 500;
+					
 					color: #252525;
 					font-size: 14px;
 					font-family: "RCB";
@@ -1278,6 +1289,7 @@ input:-moz-placeholder {
 				font-size: 14px;
 				font-family: "OSL";
 				color: rgba(255, 255, 255, 0.80);
+				padding: 0px 10px;
 			}
 			.b-europe .b-form form{
 				margin-top: 22px;
@@ -1395,6 +1407,7 @@ input:-moz-placeholder {
 				font-size: 14px;
 				font-family: "OSL";
 				color: rgba(255, 255, 255, 0.80);
+				padding: 0px 10px;
 			}
 			.b-russia .b-form form{
 				margin-top: 22px;
@@ -1428,6 +1441,9 @@ input:-moz-placeholder {
 			margin-top: 59px;
 			margin-bottom: 88px;
 		}
+			.b-russia table .space{
+				height: 35px;
+			}
 			.b-russia table tr{
 				border-bottom: 1px solid #b0b0b0;
 				vertical-align: middle;
@@ -1565,9 +1581,218 @@ input:-moz-placeholder {
 			color: #2E2E2E;
 			font-family: "OSR";
 			font-size: 15px;
-			font-weight: 400;
+			
 			text-shadow: -0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
 			padding: 4.5px 50px;
 			
 		}
 /*Новости-------------------------------------------------------------*/
+/*Основные маршруты---------------------------------------------------*/
+.b-route{
+
+}
+	.b-route .b-block{
+		text-align: center;
+	}
+		.b-route h2{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			margin-top: 40px;
+			margin-bottom: 55px;
+		}
+		.b-route .b-block .info{
+			margin-left: 56px;
+			/*margin-top: 50px;*/
+		}
+			.b-route .b-block .info p{
+				color: #252525;
+				font-size: 14px;
+				font-family: "RCR";
+				width: 615px;
+				text-align: left;
+			}
+				.b-route .b-block .info ul{
+					margin-top: 20px;
+					margin-bottom: 20px;
+					margin-left: 17px;
+				}
+					.b-route .b-block .info ul li{
+						font-size: 15px;
+						color: #252525;
+						font-family: "RCB";
+						list-style-type: disc;
+						text-align: left;
+					}
+		.b-route .b-form{
+			border-radius: 25px;
+			background-color: #28324E;
+			width: 277px;
+			height: 313px;
+			/*margin-top: 28px;*/
+			margin-left: 70px;
+		}
+			.b-route .b-form h3{
+				font-size: 18px;
+				color: #FFF;
+				font-family: "OSS";
+				margin-top: 20px;
+			}
+			.b-route .b-form p{
+				font-size: 14px;
+				font-family: "OSL";
+				color: rgba(255, 255, 255, 0.80);
+				padding: 0px 10px;
+			}
+			.b-route .b-form form{
+				margin-top: 22px;
+			}
+				.b-route .b-form form input[type="text"]{
+					font-family: "OSR";
+					font-size: 15px;
+					text-align: center;
+					border: none;
+					border-radius: 8px;
+					margin-bottom: 14px;
+					border-bottom: 1px solid #a9adb8;
+					width: 181px;
+					height: 31px;
+				}
+				.b-route .b-form form input[type="submit"]{
+					padding: 8.5px 49.5px;
+					margin-top: 5px;
+				}
+					.b-route .b-form form input::-webkit-input-placeholder{
+						color: #28324E;
+					}
+					.b-route .b-form form input:-moz-placeholder{
+						color: #28324E;
+					}
+		.bottom-describe{
+			color: #252525;
+			font-size: 14px;
+			font-family: "RCR";
+			width: 944px;
+			text-align: left;
+			display: inline-block;
+			margin-bottom: 70px;
+		}
+.b-steps{
+	background-color: #1e2e4e;
+}
+	.b-steps .b-block{
+		text-align: center;
+	}
+		.b-steps h2{
+			color: #FFF;
+			font-family: "RCB";
+			font-size: 24px;
+			padding-top: 25px;
+		}
+		.b-steps ul{
+			display: inline-block;
+			margin-bottom: 26px;
+			margin-top: 27px;
+		}
+			.b-steps ul li{
+				float: left;
+				text-align: center;
+				margin-right: 34px;
+			}
+				.b-steps ul li:last-child{
+					margin-right: 0px;
+				}
+				.b-steps .step{
+					float: left;
+				}
+				.b-steps ul li .logo{
+					background-image: url("../i/routes/1.png");
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					width: 141px;
+					height: 141px;
+				}
+				.b-steps ul li:nth-child(2) .logo{
+					background-image: url("../i/routes/2.png");
+				}
+				.b-steps ul li:nth-child(3) .logo{
+					background-image: url("../i/routes/3.png");
+				}
+				.b-steps ul li:nth-child(4) .logo{
+					background-image: url("../i/routes/4.png");
+				}
+				.b-steps ul li:nth-child(5) .logo{
+					background-image: url("../i/routes/5.png");
+				}
+				.b-steps ul li div{
+					/*display: inline-block;*/
+				}
+				.b-steps ul li p{
+					font-family: "RCB";
+					font-size: 18px;
+					color: #FFF;
+					margin-top: 9px;
+					line-height: 20px;
+					/*float: left;*/
+					text-align: center;
+					margin-left: -4px;
+				}
+					.b-steps ul li p b{
+						
+						color: #1E98CE;
+					}
+				.b-steps ul li > img{
+					/*display: inline-block;*/
+					margin-top: 135px;
+				}
+				.b-steps ul li div img{
+					float: left;
+					margin-top: -6px;
+					margin-left: 5px;
+				}
+.b-more{
+	text-align: center;
+}
+	.b-more > .b-items{
+		width: 100%;
+		display: inline-block;
+		margin-top: 35px;
+	}
+		.b-more .b-items .b-items-list{
+			width: 100%;
+			padding-top: 14px;
+			padding-bottom: 20px;
+		}
+			.b-more .b-items .b-items-list:nth-child(2n){
+				background-color: #ededed;
+			}
+			.b-more .b-items .b-items-list .clearfix{
+				display: inline-block;
+			}
+				.b-more .b-items .b-items-list .clearfix div{
+					float: left;
+				}
+					.b-more .b-items .b-items-list .clearfix .text{
+						margin-left: 15px;
+					}
+					.b-more .b-items .b-items-list div h3{
+						color: #28324E;
+						font-family: "RCB";
+						font-size: 18px;
+						text-align: left;
+						padding-top: 15px;
+					}
+					.b-more .b-items .b-items-list div p{
+						color: #252525;
+						font-family: "RCR";
+						font-size: 14px;
+						width: 770px;
+						text-align: left;
+					}
+						.b-more .b-items .b-items-list .clearfix .text .submenu{
+							list-style-type: disc;
+						}
+							.b-more .b-items .b-items-list .clearfix .text .submenu li{
+
+							}
+/*Основные маршруты---------------------------------------------------*/
