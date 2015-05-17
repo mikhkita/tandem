@@ -322,6 +322,7 @@ input:-moz-placeholder {
 	background-position: 50% 50%;
 	background-size: cover;
 	/*position: relative;*/
+	overflow: hidden;
 }
 	.b-top-describe .w-1{
 		position: absolute;
@@ -337,12 +338,12 @@ input:-moz-placeholder {
   		margin-left: -42px;
 	}
 	.b-top-describe .b-block{
-		position: relative;
+		/*position: relative;*/
 	}
 		.b-top-describe .left{
 			background-image: url("../i/cars.png");
-			width: 634px;
-    		height: 298px;
+			width: 644px;
+    		height: 311px;
     		border-radius: 30px;
     		box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.58);
     		margin-top: 35px;
@@ -458,7 +459,8 @@ input:-moz-placeholder {
 			color: #28324E;
     		font-family: "OSL";
     		display: inline-block;
-    		margin-top: 30px;
+    		margin-top: 25px;
+    		width: 944px;
 		}
 		.b-main-describe ul{
 			margin-top: 40px;
@@ -466,7 +468,8 @@ input:-moz-placeholder {
 			.b-main-describe ul li{
 				float: left;
 				text-align: center;
-				margin-right: 32px;
+				margin-right: -17px;
+				width: 189px;
 			}
 				.b-main-describe ul li:last-child{
 					margin-right: 0px;
