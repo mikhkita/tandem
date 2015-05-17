@@ -231,9 +231,9 @@ input:-moz-placeholder {
 	}	
 	.b-green-butt:active{
 		position: relative;
-		top: 1px;
-		border-bottom: 1px solid #548F2D;
-		box-shadow: 0.5px 1.6px 3px rgba(27, 24, 21, 0.75);
+		top: 2px;
+		border-bottom: none;
+		box-shadow: 1.5px 3.6px 5px rgba(27, 24, 21, 0.75);
 	}
 @media screen and (max-width: 1250px){
 	
@@ -555,6 +555,7 @@ input:-moz-placeholder {
 						color: #8dcd00;
 					    font-family: "OSR";
 					    font-size: 23px;
+					    line-height: 27px;
 					}
 					.b-describe .b-block .b-cont p{
 						margin-top: 29px;
@@ -563,6 +564,7 @@ input:-moz-placeholder {
 				    	font-family: "OSL";
 				    	font-size: 16px;
 				    	text-align: left;
+
 					}
 						.b-describe-2 .b-block .b-cont p{
 							color: #292929;
@@ -588,12 +590,13 @@ input:-moz-placeholder {
 					    padding: 4px 51px;
 					    display: inline-block;
 					}
-						.b-describe div .b-green-border-1:hover{
-							background-color: rgba(221, 250, 156, 0.10);
+						.b-describe div .b-green-border:hover{
+							background-color: rgba(193, 250, 0, 0.40);
 						}
-						.b-describe div .b-green-border-1:active{
+						.b-describe div .b-green-border:active{
 							position: relative;
-							top: 1px;
+							box-shadow: inset 0 0 0 2px rgba(159, 159 ,159, 0.40);
+		
 						}
 							.b-describe-2 div .b-green-border{
 								color: #2E2E2E;
