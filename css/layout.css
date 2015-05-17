@@ -376,7 +376,7 @@ input:-moz-placeholder {
 				    text-transform: uppercase;
 				    background-color: rgba(161, 204, 20, 0.91);
 				    margin-top: 29px;
-				    padding: 4.5px 0px;
+				    padding: 4.5px 10px;
 			}
 				.b-top-describe .right .center{
 					margin-top: 26px;
@@ -596,7 +596,7 @@ input:-moz-placeholder {
 						.b-describe div .b-green-border:active{
 							position: relative;
 							box-shadow: inset 0 0 0 2px rgba(159, 159 ,159, 0.40);
-		
+
 						}
 							.b-describe-2 div .b-green-border{
 								color: #2E2E2E;
@@ -781,7 +781,7 @@ input:-moz-placeholder {
 
 	}
 		.b-about h2{
-			margin-top: 34px;
+			margin-top: 10px;
 			color: #28324E;
 			font-family: "RCB";
 			font-size: 24px;
@@ -805,7 +805,7 @@ input:-moz-placeholder {
 			background-size: cover;
 			background-position: 50% 50%;
 			border-radius: 30px;
-			box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.65);
+			/*box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.65);*/
 			width: 310px;
 			height: 208px;
 			margin-left: 40px;
@@ -932,12 +932,21 @@ input:-moz-placeholder {
 					position: relative;
   					top: -5px;
 				}
-		.b-info .b-block div{
-			margin-left: 157px;
-			margin-top: 35px;
+		.b-info .b-block .clearfix{
+			display: table;
+			margin-left: 158px;
+			margin-top: 38px;
+		}	
+		.b-info .b-block .clearfix .left{
+			display: table-cell;
+			vertical-align: middle;
 		}
-			.b-info .b-block div img{
+			.b-info .b-block .clearfix .b-bracket div{
 				margin-right: 24px;
+				height: 65px;
+				width: 43px;
+				border: 3px solid #217eae;
+				border-right: none;
 			}
 			.b-info .b-block div p{
 				width: 758px;
@@ -1328,8 +1337,9 @@ input:-moz-placeholder {
 					border-radius: 8px;
 					margin-bottom: 14px;
 					border-bottom: 1px solid #a9adb8;
-					width: 181px;
+					width: 161px;
 					height: 31px;
+					padding: 0px 10px;
 				}
 				.b-europe .b-form form input[type="submit"]{
 					padding: 8.5px 49.5px;
@@ -1446,8 +1456,9 @@ input:-moz-placeholder {
 					border-radius: 8px;
 					margin-bottom: 14px;
 					border-bottom: 1px solid #a9adb8;
-					width: 181px;
+					width: 161px;
 					height: 31px;
+					padding: 0px 10px;
 				}
 				.b-russia .b-form form input[type="submit"]{
 					padding: 8.5px 49.5px;
