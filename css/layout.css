@@ -1788,6 +1788,7 @@ input:-moz-placeholder {
 				.b-steps ul li > img{
 					/*display: inline-block;*/
 					margin-top: 135px;
+					margin-bottom: 27px;
 				}
 				.b-steps ul li div img{
 					float: left;
