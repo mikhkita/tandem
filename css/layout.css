@@ -1786,6 +1786,7 @@ input:-moz-placeholder {
 					/*float: left;*/
 					text-align: center;
 					margin-left: -4px;
+					max-width: 172px;
 				}
 					.b-steps ul li p b{
 						
