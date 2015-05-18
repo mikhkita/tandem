@@ -1830,6 +1830,18 @@ input:-moz-placeholder {
 					border: 12px solid #ededed;
 					border-radius: 50%;
 				}
+					.b-more .b-items .b-items-list:nth-child(2) .inside .item-avatar{
+						background-image: url("../i/routes/2.png");
+					}
+					.b-more .b-items .b-items-list:nth-child(3) .inside .item-avatar{
+						background-image: url("../i/routes/3.png");
+					}
+					.b-more .b-items .b-items-list:nth-child(4) .inside .item-avatar{
+						background-image: url("../i/routes/4.png");
+					}
+					.b-more .b-items .b-items-list:nth-child(5) .inside .item-avatar{
+						background-image: url("../i/routes/5.png");
+					}
 					.b-more .b-items .b-items-list:nth-child(2n+2) .inside .item-avatar{
 						border: 12px solid #FFF;
 					}
