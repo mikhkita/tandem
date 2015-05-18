@@ -6,7 +6,7 @@
          url('../fonts/RobotoCondensed-BoldItalic.woff') format('woff'),
          url('../fonts/RobotoCondensed-BoldItalic.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-BoldItalic.svg#RCBI') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -18,7 +18,7 @@
          url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
          url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
          url('../fonts/OpenSans-ExtraBold.svg#OSE') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -29,7 +29,7 @@
          url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
          url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-Regular.svg#RCR') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -40,7 +40,7 @@
          url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
          url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),
          url('../fonts/RobotoCondensed-Bold.svg#RCR') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -51,7 +51,7 @@
          url('../fonts/OpenSans-Bold.woff') format('woff'),
          url('../fonts/OpenSans-Bold.ttf') format('truetype'),
          url('../fonts/OpenSans-Bold.svg#OSB') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -62,7 +62,7 @@
          url('../fonts/days-webfont.woff') format('woff'),
          url('../fonts/days-webfont.ttf') format('truetype'),
          url('../fonts/days-webfont.svg#daysregular') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -74,7 +74,7 @@
          url('../fonts/OpenSans-Semibold.woff') format('woff'),
          url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
          url('../fonts/OpenSans-Semibold.svg#OSS') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -86,7 +86,7 @@
          url('../fonts/OpenSans-Regular.woff') format('woff'),
          url('../fonts/OpenSans-Regular.ttf') format('truetype'),
          url('../fonts/OpenSans-Regular.svg#OSR') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -98,7 +98,7 @@
          url('../fonts/OpenSans-Light.woff') format('woff'),
          url('../fonts/OpenSans-Light.ttf') format('truetype'),
          url('../fonts/OpenSans-Light.svg#OSL') format('svg');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -108,7 +108,7 @@
     src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/pdfintextcondpro-light-webfont.woff') format('woff'),
          url('../fonts/pdfintextcondpro-light-webfont.ttf') format('truetype');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -118,7 +118,7 @@
     src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
          url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
-    al;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -148,6 +148,9 @@ body {
 a{
 	text-decoration: none;
 	color: #472275;
+}
+b,th{
+	font-weight: 500;
 }
 li{
 	list-style: none;
@@ -1755,6 +1758,7 @@ input:-moz-placeholder {
 					background-repeat: no-repeat;
 					width: 141px;
 					height: 141px;
+					display: inline-block;
 				}
 				.b-steps ul li:nth-child(2) .logo{
 					background-image: url("../i/routes/2.png");
@@ -1877,3 +1881,171 @@ input:-moz-placeholder {
 								font-size: 14px;
 							}
 /*Основные маршруты---------------------------------------------------*/
+/*Страхование---------------------------------------------------------*/
+.b-insurance{
+
+}
+	.b-insurance .b-block{
+
+	}
+		.b-insurance h2{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			margin-top: 42px;
+		}
+		.b-insurance .clearfix{
+			margin-top: 28px;
+			margin-left: 54px;
+		}
+			.b-insurance .clearfix .content{
+
+			}
+				.b-insurance .clearfix .content p{
+					color: #252525;
+					font-size: 14px;
+					font-family: "RCR";
+					width: 612px;
+					text-align: left;
+					margin-top: 23px;
+				}
+		.b-insurance .b-form{
+			border-radius: 25px;
+			background-color: #28324E;
+			width: 277px;
+			height: 313px;
+			/*margin-top: 28px;*/
+			margin-left: 70px;
+			margin-bottom: 43px;
+		}
+			.b-insurance .b-form h3{
+				font-size: 18px;
+				color: #FFF;
+				font-family: "OSS";
+				margin-top: 20px;
+			}
+			.b-insurance .b-form p{
+				font-size: 14px;
+				font-family: "OSL";
+				color: rgba(255, 255, 255, 0.80);
+				padding: 0px 10px;
+			}
+			.b-insurance .b-form form{
+				margin-top: 22px;
+			}
+				.b-insurance .b-form form input[type="text"]{
+					font-family: "OSR";
+					font-size: 15px;
+					text-align: center;
+					border: none;
+					border-radius: 8px;
+					margin-bottom: 14px;
+					border-bottom: 1px solid #a9adb8;
+					width: 161px;
+					height: 31px;
+					padding: 0px 10px;
+				}
+				.b-insurance .b-form form input[type="submit"]{
+					margin-top: 5px;
+					padding: 3px 43.5px;
+					font-family: "OSR";
+					font-size: 15px;
+				}
+					.b-insurance .b-form form input::-webkit-input-placeholder{
+						color: #28324E;
+					}
+					.b-insurance .b-form form input:-moz-placeholder{
+						color: #28324E;
+					}
+.b-level{
+	background-color: #28324E;
+}
+	.b-level .b-block{
+		text-align: center;
+	}
+		.b-level h2{
+			color: #FFF;
+			font-family: "RCB";
+			font-size: 24px;
+			padding-top: 30px;
+		}
+		.b-level ul{
+			margin-top: 33px;
+			margin-bottom: 41px;
+			display: inline-block;
+		}
+			.b-level ul li{
+				display: block;
+				overflow: hidden;
+				border-radius: 30px;
+				width: 290px;
+				background-color: #FFF;
+				height: 276px;
+				margin-right: 35px;
+			}
+				.b-level ul li:last-child{
+					margin-right: 0px;
+				}
+				.b-level ul li .middle{
+					display: table-cell;
+					vertical-align: middle;
+					width: 290px;
+				}
+					.b-level ul li .back-img{
+						width: 290px;
+						height: 118px;
+						background-image: url("../i/insurance/1.png");
+						background-position: 50% 0px;
+						background-size: cover;
+					}
+						.b-level ul li:nth-child(2) .back-img{
+							background-image: url("../i/insurance/2.png");
+						}
+						.b-level ul li:nth-child(3) .back-img{
+							background-image: url("../i/insurance/3.png");
+						}
+					.b-level ul li .text{
+						display: table;
+						height: 158px;
+					}
+						.b-level ul li .text h3{
+							color: #9B0101;
+							font-family: "RCB";
+							font-size: 30px;
+							text-align: center;
+						}
+						.b-level ul li .text p{
+							color: #232323;
+							font-family: "RCR";
+							font-size: 15px;
+							padding: 0px 17px;
+						}
+.b-application{
+
+}
+	.b-application .b-block{
+		text-align: center;
+	}
+		.b-application p{
+			color: #252525;
+			font-family: "RCR";
+			font-size: 14px;
+			text-align: left;	
+			width: 940px;
+			display: inline-block;	
+			margin-top: 52px;	
+			margin-bottom: 18px;
+		}	
+		.b-application a{
+			font-size: 16px;
+			color: #252525;
+			font-family: "RCB";
+			text-align: left;
+			display: inline-block;
+			margin-left: 54px;
+			margin-bottom: 69px;
+		}
+			.b-application a:hover{
+				text-decoration: underline;
+			}
+/*Страхование---------------------------------------------------------*/
