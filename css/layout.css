@@ -1055,7 +1055,7 @@ input:-moz-placeholder {
 		text-align: center;
 	}
 		.b-auto h2{
-			margin-top: 40px;
+			margin-top: 35px;
 			color: #28324E;
 			font-family: "RCB";
 			font-size: 24px;
@@ -1067,7 +1067,7 @@ input:-moz-placeholder {
 			font-family: "RCR";
 			font-size: 14px;
 			width: 876px;
-			margin-top: 26px;
+			margin-top: 30px;
 		}
 		.b-auto .b-block > div{
 			width: 640px;
