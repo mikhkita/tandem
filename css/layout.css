@@ -266,7 +266,7 @@ input:-moz-placeholder {
 				    color: #28324E;
 				    font-family: "OSR";
 				    font-size: 18px;
-				    
+				    width: 315px;
 				    text-align: left;
 				    margin-top: 3px;
 			}
@@ -379,7 +379,7 @@ input:-moz-placeholder {
 				    text-transform: uppercase;
 				    background-color: rgba(161, 204, 20, 0.91);
 				    margin-top: 29px;
-				    padding: 4.5px 10px;
+				    padding: 4.5px 32px;
 			}
 				.b-top-describe .right .center{
 					margin-top: 26px;
@@ -406,7 +406,7 @@ input:-moz-placeholder {
 						color: #FFF;
 						font-family: "OSR";
 						font-size: 16px;
-						
+						padding-right: 17px;
 						text-align: left;
 						float: left;
 						margin-top: -7px;
