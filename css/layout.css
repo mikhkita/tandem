@@ -370,6 +370,7 @@ input:-moz-placeholder {
    			border-radius: 30px;
    			margin-top: 35px;
    			overflow: hidden;
+   			margin-bottom: 35px;
 		}
 			.b-top-describe .right h2{
 				    color: #FFF;
@@ -469,6 +470,7 @@ input:-moz-placeholder {
     		font-family: "OSS";
     		margin-top: 47px;
     		font-size: 29px;
+    		padding: 0px 70px;
 		}
 		.b-main-describe .b-block > p{
 			color: #28324E;
@@ -538,6 +540,8 @@ input:-moz-placeholder {
 					color: #FFF;
 		    		font-family: "OSS";
 		    		font-size: 29px;
+		    		width: 980px;
+		    		margin: 0px auto;
 				}
 				.b-describe .b-block .b-cont{
 					margin-top: 41px;
@@ -619,6 +623,7 @@ input:-moz-placeholder {
 		    font-family: "OSS";
 		    font-size: 29px;
 		    margin-top: 30px;
+		    padding: 0px 50px;
 		}
 		.b-reviews .b-block > div{
 			position: relative;
@@ -676,6 +681,7 @@ input:-moz-placeholder {
 						    margin-top: 20px;
 						    text-align: left;
 						    margin-left: 52px;
+						    width: 558px;
 						}
 							.b-reviews ul li .cloud h3 b{
 								font-family: "OSB";
