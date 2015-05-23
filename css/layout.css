@@ -439,10 +439,7 @@ input:-moz-placeholder {
 				float: left;
 				position: relative;
 			}
-				.b-menu ul li a{
-					display: block;
-				}
-				.b-menu ul li a{
+				.b-menu ul li p{
 					font-family: "OSL";
 				    font-size: 17px;
 				    text-transform: uppercase;
@@ -450,15 +447,16 @@ input:-moz-placeholder {
 				    margin-top: 13px;
 				    margin-bottom: 13px;
 				    padding: 0px 28px;
+				    display: block;
 					/*margin-right: 30px;*/
 				}
-					.b-menu ul li a:hover{
+					.b-menu ul li p:hover{
 						color: #217eae;
 					}
-					.b-menu ul li:first-child a{
+					.b-menu ul li:first-child p{
 						padding-left: 0px;
 					}
-					.b-menu ul li:last-child a{
+					.b-menu ul li:last-child p{
 						padding-right: 0px;
 					}
 						.b-menu ul li:last-child p:after{
