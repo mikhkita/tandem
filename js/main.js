@@ -1,6 +1,12 @@
 $(document).ready(function(){	
+    var co = 0,
+        timer;
 
-    $(".b-top-describe .right .center .left-cell div").css("height",$(".b-top-describe .right .center .left-cell").height()-13);
+    timer = setInterval(function(){
+        $(".b-top-describe .right .center .left-cell div").css("height",$(".b-top-describe .right .center .right-cell p").height()-21);
+        co++;
+        if( co >= 100 ) clearInterval(timer);
+    },30);
 
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
