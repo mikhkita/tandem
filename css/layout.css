@@ -387,18 +387,19 @@ input:-moz-placeholder {
 				}
 					.b-top-describe .right .center .left-cell{
 						display: table-cell;
-						vertical-align: middle;
+						vertical-align: top;
 					}
 					.b-top-describe .right .center .left-cell div{
 						margin-left: 50px;
 						margin-top: 2px;
 						margin-right: 11px;
 						width: 23px;
-						height: 44px;
+						height: 40px;
 						border:3px solid #FFF;
 						border-right: none;
 					}
 					.b-top-describe .right .center .right-cell{
+						padding-right: 30px;
 						display: table-cell;
 					}
 					.b-top-describe .right .center .right-cell p{
