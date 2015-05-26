@@ -491,7 +491,9 @@ input:-moz-placeholder {
     		font-family: "OSL";
     		display: inline-block;
     		margin-top: 25px;
-    		width: 944px;
+    		width: 915px;
+			font-size: 15px;
+			line-height: 21px;
 		}
 		.b-main-describe ul{
 			margin-top: 40px;
@@ -571,6 +573,7 @@ input:-moz-placeholder {
 						width: 600px;
 						/*height: 170px;*/
 						margin-bottom: 20px;
+						min-height: 163px;
 					}
 					.b-describe .b-block .b-cont h3{
 						text-align: left;
@@ -586,7 +589,7 @@ input:-moz-placeholder {
 				    	font-family: "OSL";
 				    	font-size: 16px;
 				    	text-align: left;
-
+				    	line-height: 20px;
 					}
 						.b-describe-2 .b-block .b-cont p{
 							color: #292929;
@@ -698,7 +701,7 @@ input:-moz-placeholder {
 						}
 							.b-reviews ul li .cloud h3 b{
 								font-family: "OSB";
-								
+								margin-right: 20px;
 							}
 						.b-reviews ul li .cloud p{
 							margin-left: 52px;
@@ -804,13 +807,13 @@ input:-moz-placeholder {
 
 	}
 		.b-about h2{
-			margin-top: 10px;
+			margin-top: 33px;
 			color: #28324E;
 			font-family: "RCB";
 			font-size: 24px;
 		}
 		.b-about .b-block > div{
-			margin-top: 65px;
+			margin-top: 31px;
 		}
 		.b-about .left-describe{
 			width: 335px;
@@ -917,7 +920,7 @@ input:-moz-placeholder {
 
 }
 	.b-info .b-block{
-		text-align: center;
+		text-align: left;
 		padding-bottom: 77px;
 	}
 		.b-info h2{
@@ -926,17 +929,19 @@ input:-moz-placeholder {
 			font-size: 24px;
 			margin-top: 34px;
 			margin-bottom: 33px;
+			text-align: center;
 		}
-		.b-info  p{
+		.b-info .b-block > p{
 			display: inline-block;
 			color: #252525;
 			font-family: "RCR";
 			width: 970px;
 			text-align: left;
 			font-size: 14px;
+			margin-left: 23px;
 		}
 		.b-info ul{
-			margin-left: 80px;
+			margin-left: 115px;
 			margin-top: 44px;
 		}
 			.b-info ul li{
@@ -946,7 +951,7 @@ input:-moz-placeholder {
 					color: #217EAE;
 					font-family: "Days";
 					font-size: 30px;
-					
+					margin-right: 9px;
 				}
 				.b-info ul li span{
 					color: #252525;
@@ -1042,7 +1047,7 @@ input:-moz-placeholder {
 				}
 					.b-main-reviews .b-block .review h3 b{
 						font-family: "OSB";
-						
+						margin-right: 20px;
 					}
 				.b-main-reviews .b-block .review p{
 					margin-left: 52px;
@@ -1503,7 +1508,7 @@ input:-moz-placeholder {
 			border: 1px solid #828282;
 			display: inline-block;
 			margin-top: 59px;
-			margin-bottom: 88px;
+			margin-bottom: 109px;
 		}
 			.b-russia table .space{
 				height: 35px;
@@ -1750,6 +1755,7 @@ input:-moz-placeholder {
 }
 	.b-steps .b-block{
 		text-align: center;
+		padding-bottom: 17px;
 	}
 		.b-steps h2{
 			color: #FFF;
@@ -1765,6 +1771,9 @@ input:-moz-placeholder {
 				float: left;
 				text-align: center;
 				margin-right: 34px;
+				position: relative;
+				min-width: 158px;
+				margin-right: 48px;
 			}
 				.b-steps ul li:last-child{
 					margin-right: 0px;
@@ -1805,8 +1814,8 @@ input:-moz-placeholder {
 					line-height: 20px;
 					/*float: left;*/
 					text-align: center;
-					margin-left: -4px;
-					max-width: 172px;
+					/*margin-left: -4px;*/
+					max-width: 198px;
 				}
 					.b-steps ul li p b{
 						
@@ -1816,6 +1825,9 @@ input:-moz-placeholder {
 					/*display: inline-block;*/
 					margin-top: 135px;
 					margin-bottom: 27px;
+					position: absolute;
+					top: 2px;
+					right: -31px;
 				}
 				.b-steps ul li div img{
 					float: left;
@@ -1832,8 +1844,6 @@ input:-moz-placeholder {
 	}
 		.b-more .b-items .b-items-list{
 			width: 100%;
-			padding-top: 14px;
-			padding-bottom: 20px;
 		}
 			.b-more .b-items .b-items-list:nth-child(2n){
 				background-color: #ededed;
@@ -1843,6 +1853,8 @@ input:-moz-placeholder {
 			}
 			.b-more .b-items .b-items-list .inside{
 				display: table;
+				padding: 12px 0px;
+				min-height: 165px;
 			}
 				.b-more .b-items .b-items-list .inside .left-1{
 					display: table-cell;
