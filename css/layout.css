@@ -1334,7 +1334,7 @@ input:-moz-placeholder {
 						list-style-type: disc;
 						text-align: left;
 					}
-		.b-europe .b-form{
+		 .b-form-right{
 			border-radius: 25px;
 			background-color: #28324E;
 			width: 277px;
@@ -1342,22 +1342,22 @@ input:-moz-placeholder {
 			margin-top: 28px;
 			margin-left: 70px;
 		}
-			.b-europe .b-form h3{
+			 .b-form-right h3{
 				font-size: 18px;
 				color: #FFF;
 				font-family: "OSS";
 				margin-top: 20px;
 			}
-			.b-europe .b-form p{
+			 .b-form-right p{
 				font-size: 14px;
 				font-family: "OSL";
 				color: rgba(255, 255, 255, 0.80);
 				padding: 0px 10px;
 			}
-			.b-europe .b-form form{
+			 .b-form-right form{
 				margin-top: 22px;
 			}
-				.b-europe .b-form form input[type="text"]{
+				 .b-form-right form input[type="text"]{
 					font-family: "OSR";
 					font-size: 15px;
 					text-align: center;
@@ -1369,16 +1369,16 @@ input:-moz-placeholder {
 					height: 31px;
 					padding: 0px 10px;
 				}
-				.b-europe .b-form form input[type="submit"]{
+				 .b-form-right form input[type="submit"]{
 					margin-top: 5px;
 					padding: 3px 43.5px;
 					font-family: "OSR";
 					font-size: 15px;
 				}
-					.b-europe .b-form form input::-webkit-input-placeholder{
+					 .b-form-right form input::-webkit-input-placeholder{
 						color: #28324E;
 					}
-					.b-europe .b-form form input:-moz-placeholder{
+					 .b-form-right form input:-moz-placeholder{
 						color: #28324E;
 					}
 		.b-europe table{
@@ -1455,53 +1455,6 @@ input:-moz-placeholder {
 				width: 612px;
 				text-align: left;
 			}
-		.b-russia .b-form{
-			border-radius: 25px;
-			background-color: #28324E;
-			width: 277px;
-			height: 313px;
-			margin-top: 28px;
-			margin-left: 70px;
-		}
-			.b-russia .b-form h3{
-				font-size: 18px;
-				color: #FFF;
-				font-family: "OSS";
-				margin-top: 20px;
-			}
-			.b-russia .b-form p{
-				font-size: 14px;
-				font-family: "OSL";
-				color: rgba(255, 255, 255, 0.80);
-				padding: 0px 10px;
-			}
-			.b-russia .b-form form{
-				margin-top: 22px;
-			}
-				.b-russia .b-form form input[type="text"]{
-					font-family: "OSR";
-					font-size: 15px;
-					text-align: center;
-					border: none;
-					border-radius: 8px;
-					margin-bottom: 14px;
-					border-bottom: 1px solid #a9adb8;
-					width: 161px;
-					height: 31px;
-					padding: 0px 10px;
-				}
-				.b-russia .b-form form input[type="submit"]{
-					margin-top: 5px;
-					padding: 3px 43.5px;
-					font-family: "OSR";
-					font-size: 15px;
-				}
-					.b-russia .b-form form input::-webkit-input-placeholder{
-						color: #28324E;
-					}
-					.b-russia .b-form form input:-moz-placeholder{
-						color: #28324E;
-					}
 		.b-russia table{
 			overflow: hidden;
 			border-radius: 30px;
@@ -1945,54 +1898,9 @@ input:-moz-placeholder {
 					text-align: left;
 					margin-top: 23px;
 				}
-		.b-insurance .b-form{
-			border-radius: 25px;
-			background-color: #28324E;
-			width: 277px;
-			height: 313px;
-			/*margin-top: 28px;*/
-			margin-left: 70px;
-			margin-bottom: 43px;
+		.b-insurance .b-form-right{
+			margin-top: 0px;
 		}
-			.b-insurance .b-form h3{
-				font-size: 18px;
-				color: #FFF;
-				font-family: "OSS";
-				margin-top: 20px;
-			}
-			.b-insurance .b-form p{
-				font-size: 14px;
-				font-family: "OSL";
-				color: rgba(255, 255, 255, 0.80);
-				padding: 0px 10px;
-			}
-			.b-insurance .b-form form{
-				margin-top: 22px;
-			}
-				.b-insurance .b-form form input[type="text"]{
-					font-family: "OSR";
-					font-size: 15px;
-					text-align: center;
-					border: none;
-					border-radius: 8px;
-					margin-bottom: 14px;
-					border-bottom: 1px solid #a9adb8;
-					width: 161px;
-					height: 31px;
-					padding: 0px 10px;
-				}
-				.b-insurance .b-form form input[type="submit"]{
-					margin-top: 5px;
-					padding: 3px 43.5px;
-					font-family: "OSR";
-					font-size: 15px;
-				}
-					.b-insurance .b-form form input::-webkit-input-placeholder{
-						color: #28324E;
-					}
-					.b-insurance .b-form form input:-moz-placeholder{
-						color: #28324E;
-					}
 .b-level{
 	background-color: #28324E;
 }
