@@ -1094,39 +1094,50 @@ input:-moz-placeholder {
 			width: 876px;
 			margin-top: 30px;
 		}
-		.b-auto .b-block > div{
-			width: 640px;
-			height: 387px;
-			box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.58);
-			background-image: url("../i/avtoflot/trucks.jpg");
+		.b-auto .b-slider{
 			display: inline-block;
 			margin-top: 70px;
 			margin-bottom: 85px;
 			position: relative;
 		}
-				.b-auto .b-block div div:nth-child(1) a{
+			.b-auto .b-slider ul{
+				width: 640px;
+				height: 387px;
+				position: relative;
+			}
+				.b-auto .b-slider ul li{
+					width: 640px;
+					height: 387px;
 					position: absolute;
-					background-image:url("../i/avtoflot/arrow-left.png"); 
-					width:42px;
-					height: 42px;
-					top: 173px;
+					top: 0px;
 					left: 0px;
-					background-repeat: no-repeat;
-					background-position: 50% 50%;
-					background-color: rgba(255, 255, 255, 0.58);
-					display: block;
+					box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.58);
+					background-size: cover;
+					background-image: url("../i/avtoflot/trucks.jpg");
 				}
-				.b-auto .b-block div div:nth-child(2) a{
-					position: absolute;
-					top: 173px;
-					background-image:url("../i/avtoflot/arrow-right.png"); 
-					width:42px;
-					height: 42px;
+					.b-auto .b-slider ul li img{
+						max-width: 640px;
+						max-height: 387px;
+						
+					}
+			.b-auto .b-slider .b-arrow{
+				position: absolute;
+				width:42px;
+				height: 42px;
+				top: 50%;
+				background-repeat: no-repeat;
+				margin-top: -21px;
+				background-position: 50% 50%;
+				background-color: rgba(255, 255, 255, 0.58);
+				display: block;
+			}
+				.b-auto .b-slider .left-arrow{
+					left: 0px;
+					background-image:url("../i/avtoflot/arrow-left.png"); 
+				}
+				.b-auto .b-slider .right-arrow{
 					right: 0px;
-					background-repeat: no-repeat;
-					background-position: 50% 50%;
-					background-color: rgba(255, 255, 255, 0.58);
-					display: block;
+					background-image:url("../i/avtoflot/arrow-right.png"); 
 				}
 /*Автофлот--------------------------------------------------------------*/
 /*Контакты--------------------------------------------------------------*/
