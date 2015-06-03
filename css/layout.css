@@ -1334,7 +1334,7 @@ input:-moz-placeholder {
 						list-style-type: disc;
 						text-align: left;
 					}
-		 .b-form-right{
+		 .b-right-form{
 			border-radius: 25px;
 			background-color: #28324E;
 			width: 277px;
@@ -1342,22 +1342,22 @@ input:-moz-placeholder {
 			margin-top: 28px;
 			margin-left: 70px;
 		}
-			 .b-form-right h3{
+			 .b-right-form h3{
 				font-size: 18px;
 				color: #FFF;
 				font-family: "OSS";
 				margin-top: 20px;
 			}
-			 .b-form-right p{
+			 .b-right-form p{
 				font-size: 14px;
 				font-family: "OSL";
 				color: rgba(255, 255, 255, 0.80);
 				padding: 0px 10px;
 			}
-			 .b-form-right form{
+			 .b-right-form form{
 				margin-top: 22px;
 			}
-				 .b-form-right form input[type="text"]{
+				 .b-right-form form input[type="text"]{
 					font-family: "OSR";
 					font-size: 15px;
 					text-align: center;
@@ -1369,16 +1369,16 @@ input:-moz-placeholder {
 					height: 31px;
 					padding: 0px 10px;
 				}
-				 .b-form-right form input[type="submit"]{
+				 .b-right-form form input[type="submit"]{
 					margin-top: 5px;
 					padding: 3px 43.5px;
 					font-family: "OSR";
 					font-size: 15px;
 				}
-					 .b-form-right form input::-webkit-input-placeholder{
+					 .b-right-form form input::-webkit-input-placeholder{
 						color: #28324E;
 					}
-					 .b-form-right form input:-moz-placeholder{
+					 .b-right-form form input:-moz-placeholder{
 						color: #28324E;
 					}
 		.b-europe table{
@@ -1899,7 +1899,7 @@ input:-moz-placeholder {
 					text-align: left;
 					margin-top: 23px;
 				}
-		.b-insurance .b-form-right{
+		.b-insurance .b-right-form{
 			margin-top: 0px;
 		}
 .b-level{
