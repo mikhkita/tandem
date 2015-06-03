@@ -1028,13 +1028,13 @@ input:-moz-placeholder {
 			}
 				.b-main-reviews .b-block .review-1 img{
 					position: absolute;
-					top: 22px;
+					top: 12px;
 					left: -39px;
 				}
 				.b-main-reviews .b-block .review-2 img{
 					position: absolute;
-					top: 22px;
-					left: -39px;
+					top: 15px;
+					right: -39px;
 				}
 				.b-main-reviews .b-block .review h3{
 					color: #28324E;
