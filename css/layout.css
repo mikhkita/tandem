@@ -2005,3 +2005,115 @@ input:-moz-placeholder {
 				text-decoration: underline;
 			}
 /*Страхование---------------------------------------------------------*/
+/*Перевозки в Европу 2*-----------------------------------------------*/
+.b-europe-2{
+
+}
+	.b-europe-2 .b-block{
+		text-align: center;
+	}
+		.b-europe-2 h2{
+			margin-top: 40px;
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			margin-bottom: 5px;
+		}
+		.b-europe-2 .b-block .b-trans-2 .info{
+			margin-left: 44px;
+			margin-top: 50px;
+			margin-bottom: 86px;
+		}
+			.b-europe-2 .b-block .b-trans .inform p, .b-europe-2 .b-block .b-trans-2 .info p{
+				color: #252525;
+				font-size: 14px;
+				font-family: "RCR";
+				text-align: left;
+			}
+				.b-europe-2 .b-block .b-trans-2 .info p{
+					width: 615px;
+				}
+				.b-europe-2 .b-block .b-trans-2 .info ul{
+					margin-top: 22px;
+					margin-bottom: 24px;
+					margin-left: 17px;
+				}
+					.b-europe-2 .b-block .b-trans-2 .info ul li{
+						font-size: 15px;
+						color: #252525;
+						font-family: "RCB";
+						list-style-type: disc;
+						text-align: left;
+					}
+		.b-trans{
+			margin-left: 43px;
+			margin-bottom: 65px;
+		}
+			.b-trans h2{
+				margin-bottom: 30px;
+			}
+				.b-trans .inform{
+
+				}
+					.b-trans .inform .left-text{
+						margin-top: 43px;
+					}
+						.b-trans .inform .left-text p{
+							width: 296px;
+						}
+					.b-trans .inform .map{
+						width: 326px;
+						height: 248px;	
+						background-color: #000;
+						margin-left: 24px;
+					}
+					.b-trans .inform .bottom-text{
+						margin-top: 23px;
+					}
+						.b-trans .inform .bottom-text p{
+							width: 668px;
+						}
+		.b-europe-2 .b-right-form{
+			margin-top: 20px;
+			margin-left: 13px;
+		}
+			 /*.b-right-form h3{
+				font-size: 18px;
+				color: #FFF;
+				font-family: "OSS";
+				margin-top: 20px;
+			}
+			 .b-right-form p{
+				font-size: 14px;
+				font-family: "OSL";
+				color: rgba(255, 255, 255, 0.80);
+				padding: 0px 10px;
+			}
+			 .b-right-form form{
+				margin-top: 22px;
+			}
+				 .b-right-form form input[type="text"]{
+					font-family: "OSR";
+					font-size: 15px;
+					text-align: center;
+					border: none;
+					border-radius: 8px;
+					margin-bottom: 14px;
+					border-bottom: 1px solid #a9adb8;
+					width: 161px;
+					height: 31px;
+					padding: 0px 10px;
+				}
+				 .b-right-form form input[type="submit"]{
+					margin-top: 5px;
+					padding: 3px 43.5px;
+					font-family: "OSR";
+					font-size: 15px;
+				}
+					 .b-right-form form input::-webkit-input-placeholder{
+						color: #28324E;
+					}
+					 .b-right-form form input:-moz-placeholder{
+						color: #28324E;
+					}*/
+/*Перевозки в Европу 2*-----------------------------------------------*/
