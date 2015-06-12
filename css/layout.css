@@ -165,7 +165,7 @@ input.error,textarea.error{
 	border: 2px solid #FF5C5C !important;
 }
 .ps-lines{
-	display: none;
+	/*display: none;*/
 }
 	.ps-lines li.v{
 		position: fixed;
@@ -2083,7 +2083,7 @@ input:-moz-placeholder {
 
 }
 	.b-kotka .b-block{
-		padding-top: 43px;
+		
 	}
 		.b-kotka h2{
 			color: #28324E;
@@ -2092,11 +2092,12 @@ input:-moz-placeholder {
 			width: 455px;
 			display: inline-block;
 			line-height: 30px;
+			padding-top: 43px;
 		}
 		.b-kotka .b-up-describe{
 			width: 940px;
 			margin-top: 37px;
-			margin-left: 18px;
+			margin-left: 52px;
 		}
 			.b-kotka .b-up-describe p{
 				text-align: left;
@@ -2114,7 +2115,7 @@ input:-moz-placeholder {
 					text-decoration: none;
 				}
 		.b-kotka .b-center-describe{
-
+			margin-left: 33px;
 		}
 			.b-kotka .b-center-describe .left-side{
 				width: 630px;
@@ -2146,9 +2147,130 @@ input:-moz-placeholder {
 					margin-bottom: 32px;
 				}
 		.b-fast{
-
+			margin-left: 32px;
 		}
 			.b-fast h2{
+				padding-top: 0px; 
+			}	
+			.b-fast .first-part{
+				margin-top: 42px;
+			}
+			.b-fast .second-part{
+				margin-top: 40px;
+				margin-bottom: 52px;
+			}
+				.b-fast .first-part > p, .b-fast .second-part > p{
+					color: #252525;
+					font-family: "RCR";
+					font-size: 14px;
+					text-align: left;
+					margin-left: 20px;
+					width: 940px;
+				}
+				.b-fast ul{
+					margin-top: 20px;
+					margin-left: 32px;
+					margin-bottom: 20px;
+				}	
+					.b-fast ul li{
+						list-style-type: disc;	
+						color: #252525;
+						padding-left: 9px;
+					}
+						.b-fast ul li p{
+							color: #252525;
+							font-family: "RCB";
+							font-size: 14px;
+							text-align: left;
+							width: 870px;
+						}
+							.b-fast p a{
+								color: #252525;
+								font-family: "RCB";
+								font-size: 14px;
+								text-align: left;
+								text-decoration: underline;
+							}
+								.b-fast p a:hover{
+									text-decoration: none;
+								}
+			.b-kotka .b-back{
+				background-color: #28324e;
+				padding-bottom: 50px;
+			}
+			.b-kotka .b-start{
+				
+			}
+				.b-kotka .b-start h3{
+					color: #FFF;
+					font-family: "RCB";
+					font-size: 24px;
+					padding-top: 37px;
+					margin-bottom: 37px;
+				}
+				.b-kotka .b-start ul{
 
+				}
+					.b-kotka .b-start ul li{
+						overflow: hidden;
+						border-radius: 30px;
+						margin-right: 18px;
+						margin-bottom: 25px;
+					}
+						.b-kotka .b-start ul li:nth-child(3n){
+							margin-right: 0px;
+						}
+						.b-kotka .b-start ul li .face{
+							width: 332px;
+							height: 159px;
+							background-image: url("../i/kotka/1.jpg");
+						}
+							.b-kotka .b-start ul li:nth-child(2) .face{
+								background-image: url("../i/kotka/2.jpg");
+							}
+							.b-kotka .b-start ul li:nth-child(3) .face{
+								background-image: url("../i/kotka/3.jpg");
+							}
+							.b-kotka .b-start ul li:nth-child(4) .face{
+								background-image: url("../i/kotka/4.jpg");
+							}
+							.b-kotka .b-start ul li:nth-child(5) .face{
+								background-image: url("../i/kotka/5.jpg");
+							}
+							.b-kotka .b-start ul li:nth-child(6) .face{
+								background-image: url("../i/kotka/6.jpg");
+							}
+						.b-kotka .b-start ul li .text{
+							background-color: #FFF;
+							height: 80px;
+							display: table;
+							width: 332px;
+						}
+						.b-kotka .b-start ul li .text p{
+							color: #2C2C2C;
+							font-family: "RCR";
+							font-size: 18px;
+							width: 322px;
+							display: table-cell;
+							vertical-align: middle;
+						}
+		.b-america{
+			text-align: center;
+		}
+			.b-america h3{
+				color: #28324E;
+				font-family: "RCB";
+				font-size: 24px;
+				margin-top: 34px;
+			}
+			.b-america p{
+				color: #252525;
+				font-family: "RCR";
+				font-size: 14px;
+				text-align: left;
+				margin-top: 41px;
+				margin-left: 52px;
+				width: 953px;
+				margin-bottom: 108px;
 			}
 /*Доставка из Котки*-----------------------------------------------*/
