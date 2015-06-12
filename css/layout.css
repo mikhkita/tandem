@@ -2064,7 +2064,7 @@ input:-moz-placeholder {
 					.b-trans .inform .map{
 						width: 326px;
 						height: 248px;	
-						background-color: #000;
+						background-image: url("../i/mini-map.jpg");
 						margin-left: 24px;
 					}
 					.b-trans .inform .bottom-text{
@@ -2077,43 +2077,78 @@ input:-moz-placeholder {
 			margin-top: 20px;
 			margin-left: 13px;
 		}
-			 /*.b-right-form h3{
-				font-size: 18px;
-				color: #FFF;
-				font-family: "OSS";
-				margin-top: 20px;
-			}
-			 .b-right-form p{
-				font-size: 14px;
-				font-family: "OSL";
-				color: rgba(255, 255, 255, 0.80);
-				padding: 0px 10px;
-			}
-			 .b-right-form form{
-				margin-top: 22px;
-			}
-				 .b-right-form form input[type="text"]{
-					font-family: "OSR";
-					font-size: 15px;
-					text-align: center;
-					border: none;
-					border-radius: 8px;
-					margin-bottom: 14px;
-					border-bottom: 1px solid #a9adb8;
-					width: 161px;
-					height: 31px;
-					padding: 0px 10px;
-				}
-				 .b-right-form form input[type="submit"]{
-					margin-top: 5px;
-					padding: 3px 43.5px;
-					font-family: "OSR";
-					font-size: 15px;
-				}
-					 .b-right-form form input::-webkit-input-placeholder{
-						color: #28324E;
-					}
-					 .b-right-form form input:-moz-placeholder{
-						color: #28324E;
-					}*/
 /*Перевозки в Европу 2*-----------------------------------------------*/
+/*Доставка из Котки*-----------------------------------------------*/
+.b-kotka{
+
+}
+	.b-kotka .b-block{
+		padding-top: 43px;
+	}
+		.b-kotka h2{
+			color: #28324E;
+			font-family: "RCB";
+			font-size: 24px;
+			width: 455px;
+			display: inline-block;
+			line-height: 30px;
+		}
+		.b-kotka .b-up-describe{
+			width: 940px;
+			margin-top: 37px;
+			margin-left: 18px;
+		}
+			.b-kotka .b-up-describe p{
+				text-align: left;
+				color: #252525;
+				font-family: "RCR";
+				font-size: 14px;
+			}
+			.b-kotka .b-up-describe a{
+				text-decoration: underline;
+				color: #252525;
+				font-family: "RCB";
+				font-size: 14px;
+			}
+				.b-kotka .b-up-describe a:hover{
+					text-decoration: none;
+				}
+		.b-kotka .b-center-describe{
+
+		}
+			.b-kotka .b-center-describe .left-side{
+				width: 630px;
+				text-align: left;
+				margin-top: 45px;
+				margin-left: 19px;
+			}
+				.b-kotka .b-center-describe .left-side p{
+					color: #252525;
+					font-family: "RCR";
+					font-size: 14px;
+					width: 605px;
+				}
+				.b-kotka .b-center-describe .left-side ul{
+					margin-top: 20px;
+					margin-left: 11px;
+					margin-bottom: 20px;
+				}
+					.b-kotka .b-center-describe .left-side ul li{
+						color: #252525;
+						font-family: "RCB";
+						font-size: 14px;
+						list-style-type: disc;
+						padding-left: 10px;
+					}
+				.b-kotka .b-right-form{
+					margin-top: 5px;
+					margin-left: 51px;
+					margin-bottom: 32px;
+				}
+		.b-fast{
+
+		}
+			.b-fast h2{
+
+			}
+/*Доставка из Котки*-----------------------------------------------*/
